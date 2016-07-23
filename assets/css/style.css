@@ -104,9 +104,34 @@ body {
       padding: 0px;
       font-size: 14.5px; }
 
-#slider {
-  width: 1970px;
-  height: 200px;
-  background-color: firebrick; }
+#slider .container-fluid {
+  position: relative;
+  height: 750px;
+  background-color: #8B8B8B;
+  color: white;
+  font-family: 'Raleway';
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 30px; }
+  #slider .container-fluid h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 353px; }
+  #slider .container-fluid p {
+    font-size: 14px;
+    margin-top: 20px; }
+  #slider .container-fluid ul {
+    position: absolute;
+    top: 691px;
+    left: 900px; }
+    #slider .container-fluid ul li a {
+      color: rgba(255, 255, 255, 0.3);
+      width: 16px;
+      height: 16px; }
+      #slider .container-fluid ul li a .active {
+        color: #ffffff !important; }
+
+#footer {
+  height: 500px; }
 
 /*# sourceMappingURL=style.css.map */
