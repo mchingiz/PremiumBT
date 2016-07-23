@@ -52,47 +52,61 @@ body {
 .container {
   width: 1140px; }
 
-#header .topSection {
-  background-color: #e5eef0;
-  color: #93a1a7;
-  line-height: 48px;
-  height: 50px;
-  text-transform: uppercase; }
-  #header .topSection h1 {
-    font-size: 13px; }
-  #header .topSection i {
-    margin: 0 7px; }
-    #header .topSection i .fa-mobile {
-      font-size: 25px !important; }
-    #header .topSection i .fa-envelope-o {
-      font-size: 20px !important; }
-  #header .topSection span:first-child {
-    font-size: 14px; }
-  #header .topSection span:last-child {
-    font-size: 13px; }
-  #header .topSection li:first-child {
-    padding-right: 29px;
-    border-right: 1px solid #d8e3e6; }
-  #header .topSection li:last-child {
-    padding-left: 27px; }
-#header .menu {
-  padding: 20px 0;
-  height: 76px;
-  text-transform: uppercase; }
-  #header .menu ul li {
-    padding: 0 20px; }
-    #header .menu ul li a {
-      color: #93a1a7; }
-      #header .menu ul li a:active {
-        color: #23282f; }
-      #header .menu ul li a i {
-        font-size: 12.5px; }
-  #header .menu ul button {
-    background-color: #29c2e1;
-    color: #fff;
-    width: 141px;
-    height: 38px;
-    border-radius: 19px;
+#header {
+  font-weight: 400; }
+  #header .topSection {
+    background-color: #e5eef0;
+    color: #93a1a7;
+    line-height: 48px;
+    height: 50px;
+    text-transform: uppercase; }
+    #header .topSection h1 {
+      font-size: 13px; }
+    #header .topSection i {
+      margin: 0 7px; }
+      #header .topSection i .fa-mobile {
+        font-size: 25px !important; }
+      #header .topSection i .fa-envelope-o {
+        font-size: 20px !important; }
+    #header .topSection span:first-child {
+      font-size: 14px; }
+    #header .topSection span:last-child {
+      font-size: 13px; }
+    #header .topSection li:first-child {
+      padding-right: 29px;
+      border-right: 1px solid #d8e3e6; }
+    #header .topSection li:last-child {
+      padding-left: 27px; }
+  #header .menu {
+    padding: 20px 0;
+    height: 76px;
+    text-transform: uppercase;
     font-size: 14.5px; }
+    #header .menu ul li {
+      padding: 0px; }
+      #header .menu ul li a {
+        text-decoration: none;
+        color: #93a1a7;
+        padding: 20px; }
+        #header .menu ul li a .active {
+          color: #000 !important; }
+        #header .menu ul li a:hover {
+          font-weight: 900; }
+        #header .menu ul li a i {
+          font-size: 12.5px; }
+    #header .menu ul button {
+      margin-right: 5px;
+      background-color: #29c2e1;
+      color: #fff;
+      width: 141px;
+      height: 38px;
+      border-radius: 19px;
+      padding: 0px;
+      font-size: 14.5px; }
+
+#slider {
+  width: 1970px;
+  height: 200px;
+  background-color: firebrick; }
 
 /*# sourceMappingURL=style.css.map */
