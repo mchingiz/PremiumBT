@@ -1,0 +1,98 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-family: 'Karla';
+  font-weight: 400; }
+
+.row {
+  margin: 0;
+  padding: 0; }
+
+.container {
+  width: 1140px; }
+
+#header .topSection {
+  background-color: #e5eef0;
+  color: #93a1a7;
+  line-height: 48px;
+  height: 50px;
+  text-transform: uppercase; }
+  #header .topSection h1 {
+    font-size: 13px; }
+  #header .topSection i {
+    margin: 0 7px; }
+    #header .topSection i .fa-mobile {
+      font-size: 25px !important; }
+    #header .topSection i .fa-envelope-o {
+      font-size: 20px !important; }
+  #header .topSection span:first-child {
+    font-size: 14px; }
+  #header .topSection span:last-child {
+    font-size: 13px; }
+  #header .topSection li:first-child {
+    padding-right: 29px;
+    border-right: 1px solid #d8e3e6; }
+  #header .topSection li:last-child {
+    padding-left: 27px; }
+#header .menu {
+  padding: 20px 0;
+  height: 76px;
+  text-transform: uppercase; }
+  #header .menu ul li {
+    padding: 0 20px; }
+    #header .menu ul li a {
+      color: #93a1a7; }
+      #header .menu ul li a:active {
+        color: #23282f; }
+      #header .menu ul li a i {
+        font-size: 12.5px; }
+  #header .menu ul button {
+    background-color: #29c2e1;
+    color: #fff;
+    width: 141px;
+    height: 38px;
+    border-radius: 19px;
+    font-size: 14.5px; }
+
+/*# sourceMappingURL=style.css.map */

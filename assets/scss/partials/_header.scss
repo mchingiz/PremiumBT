@@ -1,0 +1,66 @@
+#header {
+	
+	.topSection {
+		background-color: #e5eef0;
+		color: #93a1a7;
+		line-height: 48px;
+		height: 50px;
+		text-transform: uppercase;
+		h1 {
+			font-size: 13px;
+		}
+		i {
+			margin: 0 7px;
+			.fa-mobile {
+				font-size: 25px !important;
+			}
+			.fa-envelope-o {
+				font-size: 20px !important;
+			}
+		}
+		span {
+			&:first-child {
+				font-size: 14px;
+			}
+			&:last-child {
+				font-size: 13px;
+			}
+		}
+		li {
+			&:first-child {
+				padding-right: 29px;
+				border-right: 1px solid #d8e3e6;
+			}
+			&:last-child {
+				padding-left: 27px;
+			}
+		}
+	}
+	.menu{
+		padding:20px 0;
+		height:76px;
+		text-transform: uppercase;
+		ul{
+			li{
+				padding:0 20px;
+				a{
+					color:#93a1a7;
+						&:active{
+							color:#23282f;
+							}
+					i{
+						font-size: 12.5px;
+					}
+				}
+			}
+			button{
+				background-color: $mainColor;
+				color:#fff;
+				width:141px;
+				height: 38px;
+				border-radius: 19px;
+				font-size: 14.5px;
+			}
+		}
+	}
+}
