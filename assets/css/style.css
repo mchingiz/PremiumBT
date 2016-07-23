@@ -131,6 +131,47 @@ body {
       #slider .container-fluid ul li a .active {
         color: #ffffff !important; }
 
+#startup .container {
+  margin-top: 100px;
+  line-height: 24px; }
+  #startup .container .col-md-7 h1 {
+    font-size: 30px;
+    font-family: 'Raleway';
+    font-weight: 900;
+    text-transform: uppercase; }
+  #startup .container .col-md-7 h3 {
+    font-size: 18px;
+    font-family: 'Karla';
+    text-transform: uppercase;
+    margin-top: 12px;
+    color: #23282f; }
+  #startup .container .col-md-7 p {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #55595f; }
+  #startup .container .col-md-7 div {
+    margin-top: 59px;
+    width: 585px;
+    height: 301px;
+    background-color: #8d8d8d; }
+  #startup .container .col-md-5 div {
+    border: 1px solid black; }
+    #startup .container .col-md-5 div i {
+      display: inline-block;
+      line-height: 67px;
+      text-align: center;
+      width: 67px;
+      height: 67px;
+      background-color: #e5eef0; }
+      #startup .container .col-md-5 div i:first-child {
+        back-color: #f7941d; }
+    #startup .container .col-md-5 div h3 {
+      display: inline-block;
+      margin-left: 99px; }
+    #startup .container .col-md-5 div p {
+      display: inline-block;
+      margin-left: 99px; }
+
 #footer {
   height: 500px; }
 

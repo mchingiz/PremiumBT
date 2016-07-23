@@ -1,0 +1,56 @@
+#startup {
+	.container {
+		margin-top: 100px;
+		line-height: 24px;
+		.col-md-7 {
+			h1 {
+				font-size: 30px;
+				font-family: 'Raleway';
+				font-weight: 900;
+				text-transform: uppercase;
+			}
+			h3 {
+				font-size: 18px;
+				font-family: 'Karla';
+				text-transform: uppercase;
+				margin-top: 12px;
+				color: $hColor;
+			}
+			p {
+				margin-top: 40px;
+				font-size: 14px;
+				color: $pColor;
+			}
+			div {
+				margin-top: 59px;
+				width: 585px;
+				height: 301px;
+				background-color: #8d8d8d;
+			}
+		}
+		.col-md-5 {
+			div {
+				border:1px solid black;
+				i {
+					display:inline-block;
+					line-height: 67px;
+					text-align: center;
+					width: 67px;
+					height: 67px;
+					background-color: $thirdColor;
+					&:first-child{
+						back-color:$secondaryColor;
+					}
+				}
+				h3{
+					display: inline-block;
+					margin-left: 99px;
+				}
+				p{
+					display: inline-block;
+					margin-left: 99px;
+				}
+			}
+		}
+	}
+}
