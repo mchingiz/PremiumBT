@@ -61,14 +61,7 @@
 				}
 			}
 			button{
-				margin-right:5px;
-				background-color: $mainColor;
-				color:#fff;
-				width:141px;
-				height: 38px;
-				border-radius: 19px;
-				padding:0px;
-				font-size: 14.5px;
+				@include button(13px,21px);
 			}
 		}
 	}

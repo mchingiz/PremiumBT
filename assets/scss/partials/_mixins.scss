@@ -14,3 +14,12 @@
 	text-transform: uppercase;
 	margin-top: 12px;
 }
+
+@mixin button($vertical,$horizontal){
+				background-color: $mainColor;
+				color:#fff;
+				border-radius: 60px;
+				padding:$vertical $horizontal;
+				font-size: 14.5px;
+				letter-spacing: 1px;
+}
