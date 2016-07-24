@@ -97,10 +97,12 @@ body {
         #header .menu ul li a i {
           font-size: 12.5px; }
     #header .menu ul button {
+      text-align: center;
       background-color: #29c2e1;
       color: #fff;
+      width: 141px;
+      height: 38px;
       border-radius: 60px;
-      padding: 11px 19px;
       font-size: 14.5px;
       letter-spacing: 1px;
       transition-duration: 0.2s; }
@@ -275,10 +277,12 @@ body {
         font-family: 'Karla';
         margin-top: 15px; }
   #features .container-fluid .container button {
+    text-align: center;
     background-color: #29c2e1;
     color: #fff;
+    width: 141px;
+    height: 38px;
     border-radius: 60px;
-    padding: 13px 21px;
     font-size: 14.5px;
     letter-spacing: 1px;
     transition-duration: 0.2s; }
@@ -334,10 +338,12 @@ body {
       position: absolute;
       right: 60px;
       bottom: 37px;
+      text-align: center;
       background-color: #29c2e1;
       color: #fff;
+      width: 141px;
+      height: 38px;
       border-radius: 60px;
-      padding: 13px 28px;
       font-size: 14.5px;
       letter-spacing: 1px;
       transition-duration: 0.2s; }
@@ -401,6 +407,49 @@ body {
             color: #adbdc1; }
             #team .container-fluid .container .col-md-12:last-child .col-md-3 .member .content ul a:hover {
               color: #51666b; }
+
+#onemonthfree .container-fluid .container {
+  border-bottom: 1px solid #e6edee;
+  padding: 100px 0;
+  letter-spacing: 1px; }
+  #onemonthfree .container-fluid .container h1 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Raleway'; }
+  #onemonthfree .container-fluid .container p {
+    font-size: 13px;
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    margin-top: 14px; }
+  #onemonthfree .container-fluid .container ul {
+    margin-top: 30px; }
+    #onemonthfree .container-fluid .container ul li:first-child button {
+      text-align: center;
+      background-color: #29c2e1;
+      color: #fff;
+      width: 141px;
+      height: 38px;
+      border-radius: 60px;
+      font-size: 14.5px;
+      letter-spacing: 1px;
+      transition-duration: 0.2s; }
+      #onemonthfree .container-fluid .container ul li:first-child button:hover {
+        background-color: #178ea6; }
+    #onemonthfree .container-fluid .container ul li:last-child button {
+      text-align: center;
+      background-color: #29c2e1;
+      color: #fff;
+      width: 141px;
+      height: 38px;
+      border-radius: 60px;
+      font-size: 14.5px;
+      letter-spacing: 1px;
+      transition-duration: 0.2s;
+      background-color: #f7941d; }
+      #onemonthfree .container-fluid .container ul li:last-child button:hover {
+        background-color: #178ea6; }
+      #onemonthfree .container-fluid .container ul li:last-child button:hover {
+        background-color: #a85e06; }
 
 #footer {
   height: 500px; }

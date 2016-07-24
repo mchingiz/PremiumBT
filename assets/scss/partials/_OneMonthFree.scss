@@ -1,0 +1,35 @@
+#onemonthfree{
+	.container-fluid{
+		.container{
+			border-bottom:1px solid $borderColor;
+			padding:100px 0;
+			letter-spacing: 1px;
+			h1{
+				font-size: 30px;
+				font-weight: 700;
+				font-family: 'Raleway';
+			}
+			p{
+				font-size: 13px;
+				font-family: 'Raleway';
+				text-transform: uppercase;
+				margin-top:14px;
+			}
+			ul{
+				margin-top:30px;
+				li{
+				&:first-child button{
+					@include button;
+				}
+				&:last-child button{
+					@include button;
+					background-color: $secondaryColor;
+					&:hover{
+						background-color: darken($secondaryColor,20%);
+					}
+				}
+			}
+			}
+		}
+	}
+}
