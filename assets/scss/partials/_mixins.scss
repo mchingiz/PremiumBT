@@ -1,0 +1,16 @@
+@mixin sectionh1{
+	color: #23282f;
+	font-size: 30px;
+	font-weight: 700;
+	font-family: 'Raleway';
+	text-transform: uppercase;
+}
+
+@mixin sectionh3{
+	color: #23282f;
+	font-size: 18px;
+	font-weight: 400;
+	font-family: 'Karla';
+	text-transform: uppercase;
+	margin-top: 12px;
+}

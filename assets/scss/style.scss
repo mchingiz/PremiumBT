@@ -56,6 +56,7 @@ body{
 	width:$mainWidth;
 }
 
+@import "partials/mixins";
 @import "partials/header";
 @import "partials/slider";
 @import "partials/startup";

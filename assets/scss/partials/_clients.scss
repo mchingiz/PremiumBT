@@ -1,0 +1,61 @@
+#clients{
+	.container-fluid{
+		background-color: #e5eef0;
+		.container{
+			padding:100px 0 110px 0;
+			h1{
+				@include sectionh1;
+			}
+			h3{
+				@include sectionh3;
+				margin-bottom:57px;
+			}
+			.col-md-6{
+				p{
+					width: 512px;
+					font: italic 15px / 24px 'Karla';
+					margin-bottom:35px;
+				}
+				span{
+					margin-top: 6px;
+					span{
+						display:block;
+						color: #f5a24c;
+						letter-spacing: 1px;
+					}
+				}
+			}
+			.col-md-5{
+				.col-md-4{
+					.clientPhoto{
+						width:132px;
+						height:132px;
+						background-color: #8d8d8d;
+						border-radius:100%;
+					}
+					.active{
+						background-color: $secondaryColor;
+					}
+				}
+				ul{
+					margin-top:12px;
+					position: absolute;
+					left:48px;
+					li{
+						padding:0 3px;
+						margin:0px;
+						a{
+						color:#b3cacf;
+						width: 12px;
+						height: 12px;
+					}
+					.active{
+						background-color: transparent !important;
+						color:$mainColor;
+					}
+					}
+				}
+			}
+		}
+	}
+}

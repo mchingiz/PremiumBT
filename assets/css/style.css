@@ -59,7 +59,8 @@ body {
     color: #93a1a7;
     line-height: 48px;
     height: 50px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    letter-spacing: 1px; }
     #header .topSection h1 {
       font-size: 13px; }
     #header .topSection i {
@@ -133,18 +134,21 @@ body {
 
 #startup .container {
   margin-top: 100px;
-  line-height: 24px; }
+  line-height: 24px;
+  padding: 0; }
   #startup .container .col-md-7 h1 {
+    color: #23282f;
     font-size: 30px;
+    font-weight: 700;
     font-family: 'Raleway';
-    font-weight: 900;
     text-transform: uppercase; }
   #startup .container .col-md-7 h3 {
+    color: #23282f;
     font-size: 18px;
+    font-weight: 400;
     font-family: 'Karla';
     text-transform: uppercase;
-    margin-top: 12px;
-    color: #23282f; }
+    margin-top: 12px; }
   #startup .container .col-md-7 p {
     margin-top: 40px;
     font-size: 14px;
@@ -157,7 +161,6 @@ body {
   #startup .container .col-md-5 div {
     border: 1px solid black; }
     #startup .container .col-md-5 div i {
-      display: inline-block;
       line-height: 67px;
       text-align: center;
       width: 67px;
@@ -166,11 +169,59 @@ body {
       #startup .container .col-md-5 div i:first-child {
         back-color: #f7941d; }
     #startup .container .col-md-5 div h3 {
-      display: inline-block;
       margin-left: 99px; }
     #startup .container .col-md-5 div p {
-      display: inline-block;
       margin-left: 99px; }
+
+#clients .container-fluid {
+  background-color: #e5eef0; }
+  #clients .container-fluid .container {
+    padding: 100px 0 110px 0; }
+    #clients .container-fluid .container h1 {
+      color: #23282f;
+      font-size: 30px;
+      font-weight: 700;
+      font-family: 'Raleway';
+      text-transform: uppercase; }
+    #clients .container-fluid .container h3 {
+      color: #23282f;
+      font-size: 18px;
+      font-weight: 400;
+      font-family: 'Karla';
+      text-transform: uppercase;
+      margin-top: 12px;
+      margin-bottom: 57px; }
+    #clients .container-fluid .container .col-md-6 p {
+      width: 512px;
+      font: italic 15px / 24px 'Karla';
+      margin-bottom: 35px; }
+    #clients .container-fluid .container .col-md-6 span {
+      margin-top: 6px; }
+      #clients .container-fluid .container .col-md-6 span span {
+        display: block;
+        color: #f5a24c;
+        letter-spacing: 1px; }
+    #clients .container-fluid .container .col-md-5 .col-md-4 .clientPhoto {
+      width: 132px;
+      height: 132px;
+      background-color: #8d8d8d;
+      border-radius: 100%; }
+    #clients .container-fluid .container .col-md-5 .col-md-4 .active {
+      background-color: #f7941d; }
+    #clients .container-fluid .container .col-md-5 ul {
+      margin-top: 12px;
+      position: absolute;
+      left: 48px; }
+      #clients .container-fluid .container .col-md-5 ul li {
+        padding: 0 3px;
+        margin: 0px; }
+        #clients .container-fluid .container .col-md-5 ul li a {
+          color: #b3cacf;
+          width: 12px;
+          height: 12px; }
+        #clients .container-fluid .container .col-md-5 ul li .active {
+          background-color: transparent !important;
+          color: #29c2e1; }
 
 #footer {
   height: 500px; }
