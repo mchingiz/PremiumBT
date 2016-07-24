@@ -16,10 +16,14 @@
 }
 
 @mixin button($vertical,$horizontal){
-				background-color: $mainColor;
-				color:#fff;
-				border-radius: 60px;
-				padding:$vertical $horizontal;
-				font-size: 14.5px;
-				letter-spacing: 1px;
+	background-color: $mainColor;
+	color:#fff;
+	border-radius: 60px;
+	padding:$vertical $horizontal;
+	font-size: 14.5px;
+	letter-spacing: 1px;
+	transition-duration: 0.2s;
+	&:hover{
+		background-color:darken($mainColor,15%);
+	}
 }

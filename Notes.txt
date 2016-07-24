@@ -1,0 +1,3 @@
+*Butun sectionlari container-fluid icinde containere sal,hamisini marginin eyni sass faylindan duzelt
+*Header ve slider deyesen col-md-12 ile yazilmayib,responsive deyiller
+*CONTACT US buttonun vertically duz position olunmayib

@@ -24,7 +24,7 @@ footer, header, hgroup, menu, nav, section {
   display: block; }
 
 body {
-  line-height: 1; }
+  line-height: 24px; }
 
 ol, ul {
   list-style: none; }
@@ -82,7 +82,8 @@ body {
     padding: 20px 0;
     height: 76px;
     text-transform: uppercase;
-    font-size: 14.5px; }
+    font-size: 14.5px;
+    line-height: 48px; }
     #header .menu ul li {
       padding: 0px; }
       #header .menu ul li a {
@@ -99,9 +100,12 @@ body {
       background-color: #29c2e1;
       color: #fff;
       border-radius: 60px;
-      padding: 13px 21px;
+      padding: 11px 19px;
       font-size: 14.5px;
-      letter-spacing: 1px; }
+      letter-spacing: 1px;
+      transition-duration: 0.2s; }
+      #header .menu ul button:hover {
+        background-color: #178ea6; }
 
 #slider .container-fluid {
   position: relative;
@@ -276,7 +280,77 @@ body {
     border-radius: 60px;
     padding: 13px 21px;
     font-size: 14.5px;
-    letter-spacing: 1px; }
+    letter-spacing: 1px;
+    transition-duration: 0.2s; }
+    #features .container-fluid .container button:hover {
+      background-color: #178ea6; }
+
+#pricing .container-fluid .container .col-md-12:first-child {
+  margin-top: 100px; }
+  #pricing .container-fluid .container .col-md-12:first-child h1 {
+    color: #23282f;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Raleway';
+    text-transform: uppercase; }
+  #pricing .container-fluid .container .col-md-12:first-child h3 {
+    color: #23282f;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Karla';
+    text-transform: uppercase;
+    margin-top: 12px; }
+#pricing .container-fluid .container .col-md-12:last-child {
+  margin-top: 43px;
+  margin-bottom: 99px; }
+  #pricing .container-fluid .container .col-md-12:last-child .col-md-3:first-child {
+    padding-left: 0; }
+  #pricing .container-fluid .container .col-md-12:last-child .col-md-3:last-child {
+    padding-right: 0; }
+  #pricing .container-fluid .container .col-md-12:last-child .col-md-3 .plan {
+    position: relative;
+    border: 1px solid #e6edee;
+    height: 424px; }
+    #pricing .container-fluid .container .col-md-12:last-child .col-md-3 .plan .planName {
+      border-bottom: 1px solid #e6edee;
+      padding: 36px 0 13px 0; }
+      #pricing .container-fluid .container .col-md-12:last-child .col-md-3 .plan .planName h1 {
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Raleway';
+        text-transform: uppercase; }
+    #pricing .container-fluid .container .col-md-12:last-child .col-md-3 .plan .planPrice {
+      padding: 20px 0 60px 0; }
+      #pricing .container-fluid .container .col-md-12:last-child .col-md-3 .plan .planPrice p {
+        font-size: 18px;
+        font-family: 'Raleway'; }
+        #pricing .container-fluid .container .col-md-12:last-child .col-md-3 .plan .planPrice p span {
+          color: #f7941d; }
+    #pricing .container-fluid .container .col-md-12:last-child .col-md-3 .plan .planDetails {
+      line-height: 36px;
+      font-size: 15px;
+      font-family: 'Karla'; }
+    #pricing .container-fluid .container .col-md-12:last-child .col-md-3 .plan button {
+      position: absolute;
+      right: 60px;
+      bottom: 37px;
+      background-color: #29c2e1;
+      color: #fff;
+      border-radius: 60px;
+      padding: 13px 28px;
+      font-size: 14.5px;
+      letter-spacing: 1px;
+      transition-duration: 0.2s; }
+      #pricing .container-fluid .container .col-md-12:last-child .col-md-3 .plan button:hover {
+        background-color: #178ea6; }
+  #pricing .container-fluid .container .col-md-12:last-child .col-md-3 .recommended {
+    -webkit-box-shadow: 0px 0px 138px -55px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 138px -55px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 138px -55px rgba(0, 0, 0, 0.75); }
+    #pricing .container-fluid .container .col-md-12:last-child .col-md-3 .recommended img {
+      position: absolute;
+      top: 0px;
+      left: 0px; }
 
 #footer {
   height: 500px; }
