@@ -61,23 +61,30 @@ body {
     height: 50px;
     text-transform: uppercase;
     letter-spacing: 1px; }
-    #header .topSection h1 {
-      font-size: 13px; }
-    #header .topSection i {
-      margin: 0 7px; }
-      #header .topSection i .fa-mobile {
-        font-size: 25px !important; }
-      #header .topSection i .fa-envelope-o {
-        font-size: 20px !important; }
-    #header .topSection span:first-child {
-      font-size: 14px; }
-    #header .topSection span:last-child {
-      font-size: 13px; }
-    #header .topSection li:first-child {
-      padding-right: 29px;
-      border-right: 1px solid #d8e3e6; }
-    #header .topSection li:last-child {
-      padding-left: 27px; }
+    #header .topSection .col-md-12 {
+      padding: 0px; }
+      #header .topSection .col-md-12 .col-md-7 {
+        padding: 0px; }
+        #header .topSection .col-md-12 .col-md-7 h1 {
+          font-size: 13px; }
+      #header .topSection .col-md-12 .col-md-5 {
+        padding: 0px;
+        text-align: right; }
+        #header .topSection .col-md-12 .col-md-5 i {
+          margin: 0 7px; }
+          #header .topSection .col-md-12 .col-md-5 i .fa-mobile {
+            font-size: 25px !important; }
+          #header .topSection .col-md-12 .col-md-5 i .fa-envelope-o {
+            font-size: 20px !important; }
+        #header .topSection .col-md-12 .col-md-5 span:first-child {
+          font-size: 14px; }
+        #header .topSection .col-md-12 .col-md-5 span:last-child {
+          font-size: 13px; }
+        #header .topSection .col-md-12 .col-md-5 li:first-child {
+          padding-right: 29px;
+          border-right: 1px solid #d8e3e6; }
+        #header .topSection .col-md-12 .col-md-5 li:last-child {
+          padding-left: 27px; }
   #header .menu {
     padding: 20px 0;
     height: 76px;
@@ -138,30 +145,31 @@ body {
 
 #startup .container {
   margin-top: 100px;
-  line-height: 24px;
-  padding: 0; }
-  #startup .container .col-md-7 h1 {
-    color: #23282f;
-    font-size: 30px;
-    font-weight: 700;
-    font-family: 'Raleway';
-    text-transform: uppercase; }
-  #startup .container .col-md-7 h3 {
-    color: #23282f;
-    font-size: 18px;
-    font-weight: 400;
-    font-family: 'Karla';
-    text-transform: uppercase;
-    margin-top: 12px; }
-  #startup .container .col-md-7 p {
-    margin-top: 40px;
-    font-size: 14px;
-    color: #55595f; }
-  #startup .container .col-md-7 div {
-    margin-top: 59px;
-    width: 585px;
-    height: 301px;
-    background-color: #8d8d8d; }
+  line-height: 24px; }
+  #startup .container .col-md-7 {
+    padding-left: 0px; }
+    #startup .container .col-md-7 h1 {
+      color: #23282f;
+      font-size: 30px;
+      font-weight: 700;
+      font-family: 'Raleway';
+      text-transform: uppercase; }
+    #startup .container .col-md-7 h3 {
+      color: #23282f;
+      font-size: 18px;
+      font-weight: 400;
+      font-family: 'Karla';
+      text-transform: uppercase;
+      margin-top: 12px; }
+    #startup .container .col-md-7 p {
+      margin-top: 40px;
+      font-size: 14px;
+      color: #55595f; }
+    #startup .container .col-md-7 div {
+      margin-top: 59px;
+      width: 585px;
+      height: 301px;
+      background-color: #8d8d8d; }
   #startup .container .col-md-5 div {
     border: 1px solid black; }
     #startup .container .col-md-5 div i {
@@ -180,7 +188,8 @@ body {
 #clients .container-fluid {
   background-color: #e5eef0; }
   #clients .container-fluid .container {
-    padding: 100px 0 110px 0; }
+    padding-top: 100px;
+    padding-bottom: 110px; }
     #clients .container-fluid .container h1 {
       color: #23282f;
       font-size: 30px;
@@ -195,6 +204,10 @@ body {
       text-transform: uppercase;
       margin-top: 12px;
       margin-bottom: 57px; }
+    #clients .container-fluid .container .col-md-12 {
+      padding: 0px; }
+    #clients .container-fluid .container .col-md-1 {
+      padding-left: 0px; }
     #clients .container-fluid .container .col-md-6 p {
       width: 512px;
       font: italic 15px / 24px 'Karla';
@@ -289,124 +302,128 @@ body {
     #features .container-fluid .container button:hover {
       background-color: #178ea6; }
 
-#pricing .container-fluid .container .col-md-12:first-child {
-  margin-top: 100px; }
-  #pricing .container-fluid .container .col-md-12:first-child h1 {
-    color: #23282f;
-    font-size: 30px;
-    font-weight: 700;
-    font-family: 'Raleway';
-    text-transform: uppercase; }
-  #pricing .container-fluid .container .col-md-12:first-child h3 {
-    color: #23282f;
-    font-size: 18px;
-    font-weight: 400;
-    font-family: 'Karla';
-    text-transform: uppercase;
-    margin-top: 12px; }
-#pricing .container-fluid .container .col-md-12:last-child {
-  margin-top: 43px;
-  margin-bottom: 99px; }
-  #pricing .container-fluid .container .col-md-12:last-child .col-md-3:first-child {
-    padding-left: 0; }
-  #pricing .container-fluid .container .col-md-12:last-child .col-md-3:last-child {
-    padding-right: 0; }
-  #pricing .container-fluid .container .col-md-12:last-child .col-md-3 .plan {
-    position: relative;
-    border: 1px solid #e6edee;
-    height: 424px; }
-    #pricing .container-fluid .container .col-md-12:last-child .col-md-3 .plan .planName {
-      border-bottom: 1px solid #e6edee;
-      padding: 36px 0 13px 0; }
-      #pricing .container-fluid .container .col-md-12:last-child .col-md-3 .plan .planName h1 {
-        font-size: 20px;
-        font-weight: bold;
-        font-family: 'Raleway';
-        text-transform: uppercase; }
-    #pricing .container-fluid .container .col-md-12:last-child .col-md-3 .plan .planPrice {
-      padding: 20px 0 60px 0; }
-      #pricing .container-fluid .container .col-md-12:last-child .col-md-3 .plan .planPrice p {
-        font-size: 18px;
-        font-family: 'Raleway'; }
-        #pricing .container-fluid .container .col-md-12:last-child .col-md-3 .plan .planPrice p span {
-          color: #f7941d; }
-    #pricing .container-fluid .container .col-md-12:last-child .col-md-3 .plan .planDetails {
-      line-height: 36px;
-      font-size: 15px;
-      font-family: 'Karla'; }
-    #pricing .container-fluid .container .col-md-12:last-child .col-md-3 .plan button {
-      position: absolute;
-      right: 60px;
-      bottom: 37px;
-      text-align: center;
-      background-color: #29c2e1;
-      color: #fff;
-      width: 141px;
-      height: 38px;
-      border-radius: 60px;
-      font-size: 14.5px;
-      letter-spacing: 1px;
-      transition-duration: 0.2s; }
-      #pricing .container-fluid .container .col-md-12:last-child .col-md-3 .plan button:hover {
-        background-color: #178ea6; }
-  #pricing .container-fluid .container .col-md-12:last-child .col-md-3 .recommended {
-    -webkit-box-shadow: 0px 0px 138px -55px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 138px -55px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 0px 138px -55px rgba(0, 0, 0, 0.75); }
-    #pricing .container-fluid .container .col-md-12:last-child .col-md-3 .recommended img {
-      position: absolute;
-      top: 0px;
-      left: 0px; }
-
-#team .container-fluid {
-  background-color: #e5eef0; }
-  #team .container-fluid .container .col-md-12:first-child {
+#pricing .container-fluid .container .col-md-12 {
+  padding-left: 0px; }
+  #pricing .container-fluid .container .col-md-12:first-child {
     margin-top: 100px; }
-    #team .container-fluid .container .col-md-12:first-child h1 {
+    #pricing .container-fluid .container .col-md-12:first-child h1 {
       color: #23282f;
       font-size: 30px;
       font-weight: 700;
       font-family: 'Raleway';
       text-transform: uppercase; }
-    #team .container-fluid .container .col-md-12:first-child h3 {
+    #pricing .container-fluid .container .col-md-12:first-child h3 {
       color: #23282f;
       font-size: 18px;
       font-weight: 400;
       font-family: 'Karla';
       text-transform: uppercase;
       margin-top: 12px; }
-  #team .container-fluid .container .col-md-12:last-child {
-    margin-top: 38px;
-    margin-bottom: 98px; }
-    #team .container-fluid .container .col-md-12:last-child .col-md-3:first-child {
+  #pricing .container-fluid .container .col-md-12:last-child {
+    margin-top: 43px;
+    margin-bottom: 99px; }
+    #pricing .container-fluid .container .col-md-12:last-child .col-md-3:first-child {
       padding-left: 0; }
-    #team .container-fluid .container .col-md-12:last-child .col-md-3:last-child {
+    #pricing .container-fluid .container .col-md-12:last-child .col-md-3:last-child {
       padding-right: 0; }
-    #team .container-fluid .container .col-md-12:last-child .col-md-3 .member {
-      background-color: #fff; }
-      #team .container-fluid .container .col-md-12:last-child .col-md-3 .member .imgContainer {
-        width: 100%;
-        height: 276px;
-        overflow: hidden; }
-        #team .container-fluid .container .col-md-12:last-child .col-md-3 .member .imgContainer img {
-          width: 100%;
-          height: 276px; }
-      #team .container-fluid .container .col-md-12:last-child .col-md-3 .member .content {
-        padding: 30px 28px 32px 30px; }
-        #team .container-fluid .container .col-md-12:last-child .col-md-3 .member .content h4 {
-          font-family: 'Karla';
-          font-size: 14px;
+    #pricing .container-fluid .container .col-md-12:last-child .col-md-3 .plan {
+      position: relative;
+      border: 1px solid #e6edee;
+      height: 424px; }
+      #pricing .container-fluid .container .col-md-12:last-child .col-md-3 .plan .planName {
+        border-bottom: 1px solid #e6edee;
+        padding: 36px 0 13px 0; }
+        #pricing .container-fluid .container .col-md-12:last-child .col-md-3 .plan .planName h1 {
+          font-size: 20px;
           font-weight: bold;
-          text-transform: uppercase;
-          letter-spacing: 1px; }
-        #team .container-fluid .container .col-md-12:last-child .col-md-3 .member .content p {
-          color: #f7941d; }
-        #team .container-fluid .container .col-md-12:last-child .col-md-3 .member .content ul {
-          margin-top: 13px; }
-          #team .container-fluid .container .col-md-12:last-child .col-md-3 .member .content ul a {
-            color: #adbdc1; }
-            #team .container-fluid .container .col-md-12:last-child .col-md-3 .member .content ul a:hover {
-              color: #51666b; }
+          font-family: 'Raleway';
+          text-transform: uppercase; }
+      #pricing .container-fluid .container .col-md-12:last-child .col-md-3 .plan .planPrice {
+        padding: 20px 0 60px 0; }
+        #pricing .container-fluid .container .col-md-12:last-child .col-md-3 .plan .planPrice p {
+          font-size: 18px;
+          font-family: 'Raleway'; }
+          #pricing .container-fluid .container .col-md-12:last-child .col-md-3 .plan .planPrice p span {
+            color: #f7941d; }
+      #pricing .container-fluid .container .col-md-12:last-child .col-md-3 .plan .planDetails {
+        line-height: 36px;
+        font-size: 15px;
+        font-family: 'Karla'; }
+      #pricing .container-fluid .container .col-md-12:last-child .col-md-3 .plan button {
+        position: absolute;
+        right: 60px;
+        bottom: 37px;
+        text-align: center;
+        background-color: #29c2e1;
+        color: #fff;
+        width: 141px;
+        height: 38px;
+        border-radius: 60px;
+        font-size: 14.5px;
+        letter-spacing: 1px;
+        transition-duration: 0.2s; }
+        #pricing .container-fluid .container .col-md-12:last-child .col-md-3 .plan button:hover {
+          background-color: #178ea6; }
+    #pricing .container-fluid .container .col-md-12:last-child .col-md-3 .recommended {
+      -webkit-box-shadow: 0px 0px 138px -55px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 0px 0px 138px -55px rgba(0, 0, 0, 0.75);
+      box-shadow: 0px 0px 138px -55px rgba(0, 0, 0, 0.75); }
+      #pricing .container-fluid .container .col-md-12:last-child .col-md-3 .recommended img {
+        position: absolute;
+        top: 0px;
+        left: 0px; }
+
+#team .container-fluid {
+  background-color: #e5eef0; }
+  #team .container-fluid .container .col-md-12 {
+    padding-left: 0px; }
+    #team .container-fluid .container .col-md-12:first-child {
+      margin-top: 100px; }
+      #team .container-fluid .container .col-md-12:first-child h1 {
+        color: #23282f;
+        font-size: 30px;
+        font-weight: 700;
+        font-family: 'Raleway';
+        text-transform: uppercase; }
+      #team .container-fluid .container .col-md-12:first-child h3 {
+        color: #23282f;
+        font-size: 18px;
+        font-weight: 400;
+        font-family: 'Karla';
+        text-transform: uppercase;
+        margin-top: 12px; }
+    #team .container-fluid .container .col-md-12:last-child {
+      margin-top: 38px;
+      margin-bottom: 98px; }
+      #team .container-fluid .container .col-md-12:last-child .col-md-3:first-child {
+        padding-left: 0; }
+      #team .container-fluid .container .col-md-12:last-child .col-md-3:last-child {
+        padding-right: 0; }
+      #team .container-fluid .container .col-md-12:last-child .col-md-3 .member {
+        background-color: #fff; }
+        #team .container-fluid .container .col-md-12:last-child .col-md-3 .member .imgContainer {
+          width: 100%;
+          height: 276px;
+          overflow: hidden; }
+          #team .container-fluid .container .col-md-12:last-child .col-md-3 .member .imgContainer img {
+            width: 100%;
+            height: 276px; }
+        #team .container-fluid .container .col-md-12:last-child .col-md-3 .member .content {
+          padding: 30px 28px 32px 30px; }
+          #team .container-fluid .container .col-md-12:last-child .col-md-3 .member .content h4 {
+            font-family: 'Karla';
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px; }
+          #team .container-fluid .container .col-md-12:last-child .col-md-3 .member .content p {
+            color: #f7941d; }
+          #team .container-fluid .container .col-md-12:last-child .col-md-3 .member .content ul {
+            margin-top: 13px; }
+            #team .container-fluid .container .col-md-12:last-child .col-md-3 .member .content ul a {
+              color: #adbdc1; }
+              #team .container-fluid .container .col-md-12:last-child .col-md-3 .member .content ul a:hover {
+                color: #51666b; }
 
 #onemonthfree .container-fluid .container {
   border-bottom: 1px solid #e6edee;

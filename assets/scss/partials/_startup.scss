@@ -2,8 +2,8 @@
 	.container {
 		margin-top: 100px;
 		line-height: 24px;
-		padding: 0;
 		.col-md-7 {
+				padding-left:0px;
 			h1 {
 				@include sectionh1;
 			}

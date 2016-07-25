@@ -2,13 +2,20 @@
 	.container-fluid{
 		background-color: #e5eef0;
 		.container{
-			padding:100px 0 110px 0;
+			padding-top:100px;
+			padding-bottom:  110px;
 			h1{
 				@include sectionh1;
 			}
 			h3{
 				@include sectionh3;
 				margin-bottom:57px;
+			}
+			.col-md-12{
+				padding:0px;
+			}
+			.col-md-1{
+				padding-left:0px;
 			}
 			.col-md-6{
 				p{
