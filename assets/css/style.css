@@ -568,25 +568,25 @@ body {
     font-size: 14px;
     letter-spacing: 2px; }
 
+.pageHeader {
+  background-image: url(../../images/slider.png);
+  background-size: cover;
+  background-position: center;
+  height: 310px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 123px; }
+  .pageHeader h1 {
+    font: 700 48px / 30px 'Raleway';
+    color: #ffffff; }
+  .pageHeader h3 {
+    margin-top: 19px;
+    font: 500 14px / 30px 'Raleway';
+    color: #fff; }
+
 #pageContact .map {
   padding: 100px 0 75px 0;
   border-bottom: 1px solid #e6edee; }
-  #pageContact .map h1 {
-    color: #23282f;
-    font-size: 30px;
-    font-weight: 700;
-    font-family: 'Raleway';
-    text-transform: uppercase;
-    color: #23282f; }
-  #pageContact .map h3 {
-    color: #23282f;
-    font-size: 18px;
-    font-weight: 400;
-    font-family: 'Karla';
-    text-transform: uppercase;
-    margin-top: 12px;
-    color: #23282f;
-    text-transform: uppercase; }
   #pageContact .map .map {
     background-color: #8d8d8d;
     height: 417px;
@@ -658,20 +658,61 @@ body {
     #pageContact .form button:hover {
       background-color: #178ea6; }
 
-#pageHeader {
-  background-image: url(../../images/slider.png);
-  background-size: cover;
-  background-position: center;
-  height: 310px;
-  text-transform: uppercase;
-  text-align: center;
-  padding-top: 123px; }
-  #pageHeader h1 {
-    font: 700 48px / 30px 'Raleway';
-    color: #ffffff; }
-  #pageHeader p {
-    margin-top: 19px;
-    font: 500 14px / 30px 'Raleway';
-    color: #fff; }
+#newsDetails .container {
+  margin-top: 100px; }
+  #newsDetails .container h1 {
+    color: #23282f;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    color: #23282f;
+    margin-bottom: 10px; }
+  #newsDetails .container h3 {
+    color: #23282f;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Karla';
+    text-transform: uppercase;
+    margin-top: 12px;
+    color: #23282f;
+    margin-bottom: 33px; }
+  #newsDetails .container .newsImage {
+    background-image: url("../../images/spacex.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 428px; }
+  #newsDetails .container .newsContent {
+    background-color: #e5eef0;
+    text-align: center;
+    padding: 63px 57px 100px 57px; }
+    #newsDetails .container .newsContent span {
+      display: block; }
+      #newsDetails .container .newsContent span:first-child {
+        font: 700 48px / 24px 'Raleway';
+        margin-bottom: 7px; }
+      #newsDetails .container .newsContent span:last-child {
+        font: 400 16px / 24px 'Raleway';
+        text-transform: uppercase; }
+    #newsDetails .container .newsContent h4 {
+      font: 500 20px / 24px 'Raleway';
+      margin-top: 35px; }
+    #newsDetails .container .newsContent p {
+      font: 400 14px / 24px 'Karla';
+      letter-spacing: 0px;
+      margin-top: 25px;
+      margin-bottom: 57px; }
+    #newsDetails .container .newsContent button {
+      text-align: center;
+      background-color: #29c2e1;
+      color: #fff;
+      width: 141px;
+      height: 38px;
+      border-radius: 60px;
+      font-size: 14.5px;
+      letter-spacing: 1px;
+      transition-duration: 0.2s; }
+      #newsDetails .container .newsContent button:hover {
+        background-color: #178ea6; }
 
 /*# sourceMappingURL=style.css.map */

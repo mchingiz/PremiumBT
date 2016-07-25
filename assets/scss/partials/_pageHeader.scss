@@ -1,4 +1,4 @@
-#pageHeader{
+.pageHeader{
 	background-image: url(../../images/slider.png);
 	background-size: cover;
 	background-position: center;
@@ -10,7 +10,7 @@
 		font: 700 48px / 30px 'Raleway';
 		color:#ffffff;
 	}
-	p{
+	h3{
 		margin-top:19px;
 		font:500 14px / 30px 'Raleway';
 		color:#fff;
