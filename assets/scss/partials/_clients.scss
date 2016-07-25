@@ -38,8 +38,19 @@
 						width:132px;
 						height:132px;
 						background-color: #8d8d8d;
+						background-size: cover;
+						background-position:center;
 						border-radius:100%;
 					}
+					.client1{
+						background-image: url("../../images/billGates.jpg");
+						}
+					.client2{
+						background-image: url("../../images/elonMusk.jpg");
+						}
+					.client3{
+						background-image: url("../../images/dennisRitchie.jpg");
+						}
 					.active{
 						background-color: $secondaryColor;
 					}

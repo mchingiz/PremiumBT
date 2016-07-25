@@ -15,31 +15,42 @@
 				font-size: 14px;
 				color: $pColor;
 			}
-			div {
+			img {
 				margin-top: 59px;
+				margin-bottom:-7px;
 				width: 585px;
 				height: 301px;
 				background-color: #8d8d8d;
 			}
 		}
 		.col-md-5 {
-			div {
-				border: 1px solid black;
+			.row {
+				position: relative;
+				margin-bottom:50px;
 				i {
-					line-height: 67px;
+					position: absolute;
+					top:0;
+					left:0;
+					line-height: 66px;
+					font-size:35px;
 					text-align: center;
 					width: 67px;
 					height: 67px;
 					background-color: $thirdColor;
-					&:first-child {
-						back-color: $secondaryColor;
+					transition-duration: 0.2s;
+					&:hover {
+						background-color: $secondaryColor;
+						color:white;
 					}
 				}
 				h3 {
 					margin-left: 99px;
+					font: 700 20px / 24px 'Raleway';
 				}
 				p {
 					margin-left: 99px;
+					margi-top:12px;
+					font: 400 14px / 24px 'Karla';
 				}
 			}
 		}

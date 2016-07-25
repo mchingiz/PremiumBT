@@ -2,7 +2,9 @@
 	.container-fluid {
 		position: relative;
 		height: 750px;
-		background-color: #8B8B8B;
+		background-image: url(../../images/slider.png);
+		background-position: center;
+		background-size: cover;
 		color: white;
 		font-family: 'Raleway';
 		text-transform: uppercase;

@@ -1,0 +1,84 @@
+#pageContact {
+	.map {
+		padding: 100px 0 75px 0;
+		border-bottom: 1px solid $borderColor;
+		h1 {
+			@include sectionh1;
+		}
+		h3 {
+			@include sectionh3;
+			text-transform: uppercase;
+		}
+		.map {
+			background-color: #8d8d8d;
+			height: 417px;
+			margin-top: 31px;
+			position: relative;
+			a {
+				color: $secondaryColor;
+				position: absolute;
+				font-size: 50px;
+				top: 190px;
+				right: 411px;
+				transition-duration: 0.2s;
+				&:hover {
+					color: darken($secondaryColor, 10%);
+				}
+			}
+		}
+		.details {
+			margin-top: 74px;
+			.col-md-4 {
+				text-align: center;
+				i {
+					border: 1px solid $mainColor;
+					border-radius: 100%;
+					color: #23282f;
+					padding: 20px;
+					font-size: 25px;
+					width: 67px;
+					height: 67px;
+					margin-bottom: 24px;
+				}
+				p {
+					font: 400 16px / 24px 'Karla';
+					text-transform: uppercase;
+					letter-spacing: 1px;
+				}
+			}
+		}
+	}
+	.form{
+		padding:75px 0 167px 0;
+		border-bottom:1px solid $borderColor;
+		h1{
+			@include sectionh1;
+			text-align: center;
+			margin-bottom:30px;
+		}
+			input{
+				background-color: #e3eef0;
+				border:none;
+				font: 400 13px / 20px 'Karla';
+				text-transform: uppercase;
+				padding: 19px 24px;
+				width:100%;
+				margin-bottom:15px;
+				&::placeholder{
+					color:#000 !important;
+				}
+			}
+			.col-md-6{
+				&:first-child{
+					padding-left:0px;
+				}
+				&:last-child{
+					padding-right:0px;
+				}
+			}
+			button{
+				margin-top:16px;
+				@include button;
+			}
+	}
+}

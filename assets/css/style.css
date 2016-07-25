@@ -50,7 +50,7 @@ body {
   padding: 0; }
 
 .container {
-  width: 1140px; }
+  width: 1170px; }
 
 #header {
   font-weight: 400; }
@@ -61,11 +61,13 @@ body {
     height: 50px;
     text-transform: uppercase;
     letter-spacing: 1px; }
+    #header .topSection .container {
+      background-color: #e5eef0; }
     #header .topSection .col-md-12 {
       padding: 0px; }
-      #header .topSection .col-md-12 .col-md-7 {
+      #header .topSection .col-md-12 .col-md-4 {
         padding: 0px; }
-        #header .topSection .col-md-12 .col-md-7 h1 {
+        #header .topSection .col-md-12 .col-md-4 h1 {
           font-size: 13px; }
       #header .topSection .col-md-12 .col-md-5 {
         padding: 0px;
@@ -119,7 +121,9 @@ body {
 #slider .container-fluid {
   position: relative;
   height: 750px;
-  background-color: #8B8B8B;
+  background-image: url(../../images/slider.png);
+  background-position: center;
+  background-size: cover;
   color: white;
   font-family: 'Raleway';
   text-transform: uppercase;
@@ -153,37 +157,50 @@ body {
       font-size: 30px;
       font-weight: 700;
       font-family: 'Raleway';
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      color: #23282f; }
     #startup .container .col-md-7 h3 {
       color: #23282f;
       font-size: 18px;
       font-weight: 400;
       font-family: 'Karla';
       text-transform: uppercase;
-      margin-top: 12px; }
+      margin-top: 12px;
+      color: #23282f; }
     #startup .container .col-md-7 p {
       margin-top: 40px;
       font-size: 14px;
       color: #55595f; }
-    #startup .container .col-md-7 div {
+    #startup .container .col-md-7 img {
       margin-top: 59px;
+      margin-bottom: -7px;
       width: 585px;
       height: 301px;
       background-color: #8d8d8d; }
-  #startup .container .col-md-5 div {
-    border: 1px solid black; }
-    #startup .container .col-md-5 div i {
-      line-height: 67px;
+  #startup .container .col-md-5 .row {
+    position: relative;
+    margin-bottom: 50px; }
+    #startup .container .col-md-5 .row i {
+      position: absolute;
+      top: 0;
+      left: 0;
+      line-height: 66px;
+      font-size: 35px;
       text-align: center;
       width: 67px;
       height: 67px;
-      background-color: #e5eef0; }
-      #startup .container .col-md-5 div i:first-child {
-        back-color: #f7941d; }
-    #startup .container .col-md-5 div h3 {
-      margin-left: 99px; }
-    #startup .container .col-md-5 div p {
-      margin-left: 99px; }
+      background-color: #e5eef0;
+      transition-duration: 0.2s; }
+      #startup .container .col-md-5 .row i:hover {
+        background-color: #f7941d;
+        color: white; }
+    #startup .container .col-md-5 .row h3 {
+      margin-left: 99px;
+      font: 700 20px / 24px 'Raleway'; }
+    #startup .container .col-md-5 .row p {
+      margin-left: 99px;
+      margi-top: 12px;
+      font: 400 14px / 24px 'Karla'; }
 
 #clients .container-fluid {
   background-color: #e5eef0; }
@@ -195,7 +212,8 @@ body {
       font-size: 30px;
       font-weight: 700;
       font-family: 'Raleway';
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      color: #23282f; }
     #clients .container-fluid .container h3 {
       color: #23282f;
       font-size: 18px;
@@ -203,6 +221,7 @@ body {
       font-family: 'Karla';
       text-transform: uppercase;
       margin-top: 12px;
+      color: #23282f;
       margin-bottom: 57px; }
     #clients .container-fluid .container .col-md-12 {
       padding: 0px; }
@@ -222,7 +241,15 @@ body {
       width: 132px;
       height: 132px;
       background-color: #8d8d8d;
+      background-size: cover;
+      background-position: center;
       border-radius: 100%; }
+    #clients .container-fluid .container .col-md-5 .col-md-4 .client1 {
+      background-image: url("../../images/billGates.jpg"); }
+    #clients .container-fluid .container .col-md-5 .col-md-4 .client2 {
+      background-image: url("../../images/elonMusk.jpg"); }
+    #clients .container-fluid .container .col-md-5 .col-md-4 .client3 {
+      background-image: url("../../images/dennisRitchie.jpg"); }
     #clients .container-fluid .container .col-md-5 .col-md-4 .active {
       background-color: #f7941d; }
     #clients .container-fluid .container .col-md-5 ul {
@@ -255,14 +282,16 @@ body {
       font-size: 30px;
       font-weight: 700;
       font-family: 'Raleway';
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      color: #23282f; }
     #features .container-fluid .container .col-md-12 > h3 {
       color: #23282f;
       font-size: 18px;
       font-weight: 400;
       font-family: 'Karla';
       text-transform: uppercase;
-      margin-top: 12px; }
+      margin-top: 12px;
+      color: #23282f; }
     #features .container-fluid .container .col-md-12 .col-md-1 {
       text-align: center; }
       #features .container-fluid .container .col-md-12 .col-md-1:first-child {
@@ -311,14 +340,16 @@ body {
       font-size: 30px;
       font-weight: 700;
       font-family: 'Raleway';
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      color: #23282f; }
     #pricing .container-fluid .container .col-md-12:first-child h3 {
       color: #23282f;
       font-size: 18px;
       font-weight: 400;
       font-family: 'Karla';
       text-transform: uppercase;
-      margin-top: 12px; }
+      margin-top: 12px;
+      color: #23282f; }
   #pricing .container-fluid .container .col-md-12:last-child {
     margin-top: 43px;
     margin-bottom: 99px; }
@@ -384,14 +415,16 @@ body {
         font-size: 30px;
         font-weight: 700;
         font-family: 'Raleway';
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        color: #23282f; }
       #team .container-fluid .container .col-md-12:first-child h3 {
         color: #23282f;
         font-size: 18px;
         font-weight: 400;
         font-family: 'Karla';
         text-transform: uppercase;
-        margin-top: 12px; }
+        margin-top: 12px;
+        color: #23282f; }
     #team .container-fluid .container .col-md-12:last-child {
       margin-top: 38px;
       margin-bottom: 98px; }
@@ -534,5 +567,111 @@ body {
     font-family: 'Karla';
     font-size: 14px;
     letter-spacing: 2px; }
+
+#pageContact .map {
+  padding: 100px 0 75px 0;
+  border-bottom: 1px solid #e6edee; }
+  #pageContact .map h1 {
+    color: #23282f;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    color: #23282f; }
+  #pageContact .map h3 {
+    color: #23282f;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Karla';
+    text-transform: uppercase;
+    margin-top: 12px;
+    color: #23282f;
+    text-transform: uppercase; }
+  #pageContact .map .map {
+    background-color: #8d8d8d;
+    height: 417px;
+    margin-top: 31px;
+    position: relative; }
+    #pageContact .map .map a {
+      color: #f7941d;
+      position: absolute;
+      font-size: 50px;
+      top: 190px;
+      right: 411px;
+      transition-duration: 0.2s; }
+      #pageContact .map .map a:hover {
+        color: #d97a08; }
+  #pageContact .map .details {
+    margin-top: 74px; }
+    #pageContact .map .details .col-md-4 {
+      text-align: center; }
+      #pageContact .map .details .col-md-4 i {
+        border: 1px solid #29c2e1;
+        border-radius: 100%;
+        color: #23282f;
+        padding: 20px;
+        font-size: 25px;
+        width: 67px;
+        height: 67px;
+        margin-bottom: 24px; }
+      #pageContact .map .details .col-md-4 p {
+        font: 400 16px / 24px 'Karla';
+        text-transform: uppercase;
+        letter-spacing: 1px; }
+#pageContact .form {
+  padding: 75px 0 167px 0;
+  border-bottom: 1px solid #e6edee; }
+  #pageContact .form h1 {
+    color: #23282f;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    color: #23282f;
+    text-align: center;
+    margin-bottom: 30px; }
+  #pageContact .form input {
+    background-color: #e3eef0;
+    border: none;
+    font: 400 13px / 20px 'Karla';
+    text-transform: uppercase;
+    padding: 19px 24px;
+    width: 100%;
+    margin-bottom: 15px; }
+    #pageContact .form input::placeholder {
+      color: #000 !important; }
+  #pageContact .form .col-md-6:first-child {
+    padding-left: 0px; }
+  #pageContact .form .col-md-6:last-child {
+    padding-right: 0px; }
+  #pageContact .form button {
+    margin-top: 16px;
+    text-align: center;
+    background-color: #29c2e1;
+    color: #fff;
+    width: 141px;
+    height: 38px;
+    border-radius: 60px;
+    font-size: 14.5px;
+    letter-spacing: 1px;
+    transition-duration: 0.2s; }
+    #pageContact .form button:hover {
+      background-color: #178ea6; }
+
+#pageHeader {
+  background-image: url(../../images/slider.png);
+  background-size: cover;
+  background-position: center;
+  height: 310px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 123px; }
+  #pageHeader h1 {
+    font: 700 48px / 30px 'Raleway';
+    color: #ffffff; }
+  #pageHeader p {
+    margin-top: 19px;
+    font: 500 14px / 30px 'Raleway';
+    color: #fff; }
 
 /*# sourceMappingURL=style.css.map */

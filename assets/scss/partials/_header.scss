@@ -7,9 +7,12 @@
 		height: 50px;
 		text-transform: uppercase;
 		letter-spacing: 1px;
+		.container{
+			background-color:  #e5eef0;
+		}
 		.col-md-12{
 			padding:0px;
-			.col-md-7{
+			.col-md-4{
 				padding:0px;
 				h1 {
 					font-size: 13px;
