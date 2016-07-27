@@ -1,0 +1,28 @@
+#about{
+	.container-fluid{
+		.container{
+			padding:100px 0 72px 0;
+			border-bottom:1px solid $borderColor;
+			.row{
+				h1{
+				@include sectionh1;
+				}
+				h3{
+					@include sectionh3;
+					margin-bottom:46px;
+				}
+				.col-md-6{
+					p{
+						font: 400 14px / 24px 'Karla';
+					}
+					&:first-child{
+						padding-left:0;
+					}
+					&:last-child{
+						padding-right:0 !important;
+					}
+				}
+			}
+		}
+	}
+}
