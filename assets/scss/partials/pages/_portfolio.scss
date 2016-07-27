@@ -1,0 +1,50 @@
+#portfolio{
+	.container-fluid{
+		.container{
+			padding:100px 0 0 0;
+			h1{
+				@include sectionh1;
+			}
+			h3{
+				@include sectionh3;
+				margin-bottom:5px;
+			}
+			.row{
+				
+			}
+			.col-md-3{
+				.portfolioItem{
+					background-color:#8d8d8d;
+					margin:16px 0;
+					padding:10px;
+					transition-duration: .2s;
+					.innerPortItem{
+						background-color: #fff;
+						width:100%;
+						height:100%;
+						visibility:hidden;
+						text-align: center;
+						h4{
+							font: 400 14px / 24px 'Karla';
+							text-transform: uppercase;
+						}
+					}
+					&:hover div.innerPortItem{
+						visibility: visible;
+					}
+				}
+				&:first-child{
+					padding-left:0px;
+				}
+			}
+		}
+	}
+}
+
+#oneMonthFreePortfolio{
+	.container-fluid{
+		.container{
+			padding-top:83px !important;
+		}
+	}
+}

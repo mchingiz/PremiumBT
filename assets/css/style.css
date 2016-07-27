@@ -727,6 +727,46 @@ body {
       top: -15px;
       left: 555px; }
 
+#portfolio .container-fluid .container {
+  padding: 100px 0 0 0; }
+  #portfolio .container-fluid .container h1 {
+    color: #23282f;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    color: #23282f; }
+  #portfolio .container-fluid .container h3 {
+    color: #23282f;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Karla';
+    text-transform: uppercase;
+    margin-top: 12px;
+    color: #23282f;
+    margin-bottom: 5px; }
+  #portfolio .container-fluid .container .col-md-3 .portfolioItem {
+    background-color: #8d8d8d;
+    margin: 16px 0;
+    padding: 10px;
+    transition-duration: .2s; }
+    #portfolio .container-fluid .container .col-md-3 .portfolioItem .innerPortItem {
+      background-color: #fff;
+      width: 100%;
+      height: 100%;
+      visibility: hidden;
+      text-align: center; }
+      #portfolio .container-fluid .container .col-md-3 .portfolioItem .innerPortItem h4 {
+        font: 400 14px / 24px 'Karla';
+        text-transform: uppercase; }
+    #portfolio .container-fluid .container .col-md-3 .portfolioItem:hover div.innerPortItem {
+      visibility: visible; }
+  #portfolio .container-fluid .container .col-md-3:first-child {
+    padding-left: 0px; }
+
+#oneMonthFreePortfolio .container-fluid .container {
+  padding-top: 83px !important; }
+
 #portfolioTwo .container {
   padding-top: 100px; }
 #portfolioTwo h1 {
