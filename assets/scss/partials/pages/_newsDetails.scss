@@ -19,6 +19,7 @@
 			background-color: $thirdColor;
 			text-align:center;
 			padding:63px 57px 100px 57px;
+			position: relative;
 			span{
 				display: block;
 				&:first-child{
@@ -42,6 +43,18 @@
 			}
 			button{
 				@include button;
+			}
+			&::before{
+				content:"";
+				height:0px;
+				width:0px;
+				border-top:none;
+				border-bottom:15px solid $thirdColor;
+				border-left:10px solid transparent;
+				border-right:10px solid transparent;
+				position:absolute;
+				top:-15px;
+				left:555px;
 			}
 		}
 	}

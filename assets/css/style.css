@@ -685,7 +685,8 @@ body {
   #newsDetails .container .newsContent {
     background-color: #e5eef0;
     text-align: center;
-    padding: 63px 57px 100px 57px; }
+    padding: 63px 57px 100px 57px;
+    position: relative; }
     #newsDetails .container .newsContent span {
       display: block; }
       #newsDetails .container .newsContent span:first-child {
@@ -714,6 +715,17 @@ body {
       transition-duration: 0.2s; }
       #newsDetails .container .newsContent button:hover {
         background-color: #178ea6; }
+    #newsDetails .container .newsContent::before {
+      content: "";
+      height: 0px;
+      width: 0px;
+      border-top: none;
+      border-bottom: 15px solid #e5eef0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      position: absolute;
+      top: -15px;
+      left: 555px; }
 
 #portfolioTwo .container {
   padding-top: 100px; }
