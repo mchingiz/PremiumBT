@@ -52,8 +52,8 @@
 								font-family: 'Karla';
 							}
 							button {
-								position: absolute;
-								right: 60px;
+								position: relative;
+								right:65px;
 								bottom: 37px;
 								@include button;
 							}

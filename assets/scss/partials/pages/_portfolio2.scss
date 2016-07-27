@@ -1,0 +1,68 @@
+#portfolioTwo{
+	.container{
+		padding-top: 100px;
+	}
+	h1{
+		@include sectionh1;
+	}
+	h3{
+		@include sectionh3;
+		margin-bottom:38px;
+	}
+	.row{
+		.col-md-6{
+			margin-bottom:33px;
+			.item1{
+				background-image: url(../../images/spacex.jpg);
+			}
+			.item2{
+				background-image: url(../../images/portfolio4.jpg);
+			}
+			.item3{
+				background-image: url(../../images/portfolio2.jpg);
+			}
+			.item4{
+				background-image: url(../../images/portfolio3.jpg);
+			}
+			.item5{
+				background-image: url(../../images/portfolio4.jpg);
+			}
+			.item6{
+				background-image: url(../../images/portfolio2.jpg);
+			}
+			.portfolioItem{
+				background-size: cover;
+				background-position: center;
+				height: 380px;
+				padding:40px;
+				text-align: center;
+				transition-duration: .2s;
+				.content{
+					width:100%;
+					height: 100%;
+					visibility: hidden;
+					background-color: #fff;
+					h2{
+						color:$hColor;
+						font:700 24px / 300px 'Karla';
+						letter-spacing: 1px;
+					}
+				}
+				&:hover{
+					-webkit-box-shadow: inset 0px 200px 146px 170px rgba(0,0,0,0.42);
+					-moz-box-shadow: inset 0px 200px 146px 170px rgba(0,0,0,0.42);
+					box-shadow: inset 0px 200px 146px 170px rgba(0,0,0,0.42);
+					.content{
+						visibility: visible;
+					}
+				}
+			}
+			&:first-child{
+				padding-left:0px;
+			}
+			&:last-child{
+				padding-right:0px;
+			}
+		}
+	}
+}
