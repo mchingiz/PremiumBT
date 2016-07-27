@@ -1,0 +1,86 @@
+#services {
+	.container{
+		padding-top:100px;
+			h1{
+				font: 700 30px / 24px 'Raleway';
+			}
+			h3{
+				font:400 18px / 24px 'Karla';
+			}
+		.row{
+			padding:65px 0 60px 0;
+			border-bottom:1px solid $borderColor;
+			.col-md-2{
+				padding-left:0px;
+				i{
+					transition-duration: 0.2s;
+					font-size:140px;
+				}
+			}
+			.col-md-10{
+				h4{
+					transition-duration: 0.2s;
+					font: 400 20px / 24px 'Karla';
+					border-left:3px solid $mainColor;
+					padding:3px 6px;
+				}
+				p{
+					margin-top:25px;
+					font: 400 14px / 24px 'Karla';
+					letter-spacing: 1px;
+				}
+				button{
+					margin-top:36px;
+					@include button;
+				}
+			}
+			&:hover{
+				.col-md-2{
+					i{
+						color:$secondaryColor !important;
+					}
+				}
+				.col-md-10{
+					h4{
+						border-color:$secondaryColor;
+					}
+					button{
+						background-color:$secondaryColor !important;
+					}
+				}
+			}
+		}
+	}
+}
+
+#serviceStats{
+	.container-fluid{
+		background-color: $thirdColor;
+		.container{
+			padding:100px 0 85px 0;
+			.row{
+				.col-md-1{
+					i{
+						color:$secondaryColor;
+						font-size:60px;
+					}
+				}
+				.col-md-2{
+					overflow: hidden;
+					.statNumber{
+						margin-top:9px;
+						color: #23282f;
+						font-family: 'Karla';
+						font-size: 60px;
+					}
+					.statText{
+						margin-top: 15px;
+						font:400 14px / 24px 'Karla';
+						text-transform: uppercase;
+						letter-spacing: 1px;
+					}
+				}
+			}
+		}
+	}
+}

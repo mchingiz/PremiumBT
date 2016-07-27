@@ -381,9 +381,6 @@ body {
         font-size: 15px;
         font-family: 'Karla'; }
       #pricing .container-fluid .container .col-md-12:last-child .col-md-3 .plan button {
-        position: relative;
-        right: 65px;
-        bottom: 37px;
         text-align: center;
         background-color: #29c2e1;
         color: #fff;
@@ -392,7 +389,10 @@ body {
         border-radius: 60px;
         font-size: 14.5px;
         letter-spacing: 1px;
-        transition-duration: 0.2s; }
+        transition-duration: 0.2s;
+        position: relative;
+        right: 65px;
+        bottom: 37px; }
         #pricing .container-fluid .container .col-md-12:last-child .col-md-3 .plan button:hover {
           background-color: #178ea6; }
     #pricing .container-fluid .container .col-md-12:last-child .col-md-3 .recommended {
@@ -773,5 +773,68 @@ body {
     padding-left: 0px; }
   #portfolioTwo .row .col-md-6:last-child {
     padding-right: 0px; }
+
+#services .container {
+  padding-top: 100px; }
+  #services .container h1 {
+    font: 700 30px / 24px 'Raleway'; }
+  #services .container h3 {
+    font: 400 18px / 24px 'Karla'; }
+  #services .container .row {
+    padding: 65px 0 60px 0;
+    border-bottom: 1px solid #e6edee; }
+    #services .container .row .col-md-2 {
+      padding-left: 0px; }
+      #services .container .row .col-md-2 i {
+        transition-duration: 0.2s;
+        font-size: 140px; }
+    #services .container .row .col-md-10 h4 {
+      transition-duration: 0.2s;
+      font: 400 20px / 24px 'Karla';
+      border-left: 3px solid #29c2e1;
+      padding: 3px 6px; }
+    #services .container .row .col-md-10 p {
+      margin-top: 25px;
+      font: 400 14px / 24px 'Karla';
+      letter-spacing: 1px; }
+    #services .container .row .col-md-10 button {
+      margin-top: 36px;
+      text-align: center;
+      background-color: #29c2e1;
+      color: #fff;
+      width: 141px;
+      height: 38px;
+      border-radius: 60px;
+      font-size: 14.5px;
+      letter-spacing: 1px;
+      transition-duration: 0.2s; }
+      #services .container .row .col-md-10 button:hover {
+        background-color: #178ea6; }
+    #services .container .row:hover .col-md-2 i {
+      color: #f7941d !important; }
+    #services .container .row:hover .col-md-10 h4 {
+      border-color: #f7941d; }
+    #services .container .row:hover .col-md-10 button {
+      background-color: #f7941d !important; }
+
+#serviceStats .container-fluid {
+  background-color: #e5eef0; }
+  #serviceStats .container-fluid .container {
+    padding: 100px 0 85px 0; }
+    #serviceStats .container-fluid .container .row .col-md-1 i {
+      color: #f7941d;
+      font-size: 60px; }
+    #serviceStats .container-fluid .container .row .col-md-2 {
+      overflow: hidden; }
+      #serviceStats .container-fluid .container .row .col-md-2 .statNumber {
+        margin-top: 9px;
+        color: #23282f;
+        font-family: 'Karla';
+        font-size: 60px; }
+      #serviceStats .container-fluid .container .row .col-md-2 .statText {
+        margin-top: 15px;
+        font: 400 14px / 24px 'Karla';
+        text-transform: uppercase;
+        letter-spacing: 1px; }
 
 /*# sourceMappingURL=style.css.map */

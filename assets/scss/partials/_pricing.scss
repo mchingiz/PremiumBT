@@ -52,10 +52,10 @@
 								font-family: 'Karla';
 							}
 							button {
+								@include button;
 								position: relative;
 								right:65px;
 								bottom: 37px;
-								@include button;
 							}
 							
 						} //plan
