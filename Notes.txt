@@ -2,3 +2,4 @@
 *Header ve slider deyesen col-md-12 ile yazilmayib,responsive deyiller
 *CONTACT US buttonun vertically duz position olunmayib
 *hColor ve pColor-u her yerde istifade elememisen
+*buttonlari mixinle yox style.scss-da style vererek yaz

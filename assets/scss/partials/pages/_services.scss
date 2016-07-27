@@ -2,10 +2,10 @@
 	.container{
 		padding-top:100px;
 			h1{
-				font: 700 30px / 24px 'Raleway';
+				@include sectionh1;
 			}
 			h3{
-				font:400 18px / 24px 'Karla';
+				@include sectionh3;
 			}
 		.row{
 			padding:65px 0 60px 0;
