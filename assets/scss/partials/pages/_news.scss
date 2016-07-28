@@ -55,7 +55,7 @@
 						@include button;
 					}
 					
-			/*	&:first-child{
+				/*&:first-child{
 					.newsContent::before{
 						content:"";
 						height:0px;
@@ -67,6 +67,7 @@
 						position:absolute;
 						top:-15px;
 						left:555px;
+						}	
 					}*/
 					
 					news::after{

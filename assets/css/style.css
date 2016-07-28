@@ -993,19 +993,20 @@ body {
       height: 378px;
       padding: 53px 41px 0 41px;
       text-align: center;
-      /*	&:first-child{
-      		.newsContent::before{
-      			content:"";
-      			height:0px;
-      			width:0px;
-      			border-top:none;
-      			border-bottom:15px solid $thirdColor;
-      			border-left:10px solid transparent;
-      			border-right:10px solid transparent;
-      			position:absolute;
-      			top:-15px;
-      			left:555px;
-      		}*/ }
+      /*&:first-child{
+      	.newsContent::before{
+      		content:"";
+      		height:0px;
+      		width:0px;
+      		border-top:none;
+      		border-bottom:15px solid $thirdColor;
+      		border-left:10px solid transparent;
+      		border-right:10px solid transparent;
+      		position:absolute;
+      		top:-15px;
+      		left:555px;
+      		}	
+      	}*/ }
       #news .container-fluid .container .col-md-4 .newsContent span {
         display: block; }
         #news .container-fluid .container .col-md-4 .newsContent span:first-child {
@@ -1071,5 +1072,137 @@ body {
     padding-left: 0; }
   #about .container-fluid .container .row .col-md-6:last-child {
     padding-right: 0 !important; }
+
+#blog .container-fluid .container {
+  padding: 25px 0 100px 0;
+  border-bottom: 1px solid #e6edee; }
+  #blog .container-fluid .container .col-md-9 {
+    padding: 0 20px 0 0; }
+    #blog .container-fluid .container .col-md-9 .blogPost {
+      padding: 75px 0;
+      border-bottom: 1px solid #e6edee; }
+      #blog .container-fluid .container .col-md-9 .blogPost .blogImage {
+        width: 100%;
+        height: 334px;
+        overflow: hidden;
+        position: relative; }
+        #blog .container-fluid .container .col-md-9 .blogPost .blogImage img {
+          width: 100%; }
+        #blog .container-fluid .container .col-md-9 .blogPost .blogImage a i {
+          color: #fff;
+          position: absolute;
+          top: calc(50% - 20px);
+          opacity: 0.5; }
+        #blog .container-fluid .container .col-md-9 .blogPost .blogImage a:hover i {
+          opacity: 1; }
+        #blog .container-fluid .container .col-md-9 .blogPost .blogImage .fa-arrow-circle-left {
+          left: 30px; }
+        #blog .container-fluid .container .col-md-9 .blogPost .blogImage .fa-arrow-circle-right {
+          right: 30px; }
+      #blog .container-fluid .container .col-md-9 .blogPost h2 {
+        font: 700 24px / 24px 'Raleway';
+        margin-top: 40px;
+        margin-bottom: 15px; }
+      #blog .container-fluid .container .col-md-9 .blogPost span {
+        font: 400 15px / 24px 'Karla';
+        text-transform: uppercase;
+        letter-spacing: 1px; }
+        #blog .container-fluid .container .col-md-9 .blogPost span span {
+          color: #f7941d; }
+      #blog .container-fluid .container .col-md-9 .blogPost p {
+        margin-top: 42px; }
+      #blog .container-fluid .container .col-md-9 .blogPost button {
+        margin-top: 45px;
+        text-align: center;
+        background-color: #29c2e1;
+        color: #fff;
+        width: 141px;
+        height: 38px;
+        border-radius: 60px;
+        font-size: 14.5px;
+        letter-spacing: 1px;
+        transition-duration: 0.2s; }
+        #blog .container-fluid .container .col-md-9 .blogPost button:hover {
+          background-color: #178ea6; }
+      #blog .container-fluid .container .col-md-9 .blogPost audio {
+        width: 820px; }
+      #blog .container-fluid .container .col-md-9 .blogPost:nth-child(5) {
+        border: none !important; }
+    #blog .container-fluid .container .col-md-9 .row button {
+      background-color: #29c2e1;
+      border-radius: 0;
+      color: #fff;
+      font: 700 18px / 24px 'Karla';
+      width: 43px;
+      height: 42px; }
+      #blog .container-fluid .container .col-md-9 .row button:hover {
+        background-color: #147b90; }
+    #blog .container-fluid .container .col-md-9 .row span {
+      padding: 0 9px; }
+  #blog .container-fluid .container .col-md-3 {
+    padding: 75px 0 0 30px;
+    /*.tags{
+    	margin-top:55px;
+    	.row{
+    		.col-md-4{
+    			background-color: $mainColor;
+    			margin:5px;
+    		}
+    		.col-md-6{
+    			width:100%;
+    			background-color: $mainColor;
+    		}
+    	}
+    }*/ }
+    #blog .container-fluid .container .col-md-3 .search {
+      border: 1px solid #e6edee;
+      position: relative;
+      margin-bottom: 50px; }
+      #blog .container-fluid .container .col-md-3 .search input {
+        border: none;
+        width: 100%;
+        height: 42px;
+        padding-left: 17px; }
+      #blog .container-fluid .container .col-md-3 .search a i {
+        color: #8d8d8d;
+        position: absolute;
+        top: calc(50% - 8px);
+        right: 18px; }
+    #blog .container-fluid .container .col-md-3 h4 {
+      font: 400 20px / 24px 'Raleway';
+      letter-spacing: 1px;
+      margin-bottom: 24px; }
+    #blog .container-fluid .container .col-md-3 .categories ul {
+      text-transform: uppercase;
+      width: 100%; }
+      #blog .container-fluid .container .col-md-3 .categories ul li {
+        color: #55595f;
+        font: 400 13px / 36px Karla; }
+        #blog .container-fluid .container .col-md-3 .categories ul li i {
+          float: right;
+          vertical-align: middle;
+          margin-top: 5px; }
+        #blog .container-fluid .container .col-md-3 .categories ul li:hover {
+          color: #f7941d; }
+    #blog .container-fluid .container .col-md-3 .popularPost {
+      margin-top: 50px; }
+      #blog .container-fluid .container .col-md-3 .popularPost .row {
+        margin-top: 30px; }
+        #blog .container-fluid .container .col-md-3 .popularPost .row .col-md-4 {
+          padding: 0; }
+          #blog .container-fluid .container .col-md-3 .popularPost .row .col-md-4 .img {
+            width: 67px;
+            height: 67px;
+            background-color: #8d8d8d; }
+        #blog .container-fluid .container .col-md-3 .popularPost .row .col-md-8 {
+          padding: 5px 0 0 0; }
+          #blog .container-fluid .container .col-md-3 .popularPost .row .col-md-8 h5 {
+            font: 400 15px/24px "Karla";
+            text-transform: uppercase; }
+          #blog .container-fluid .container .col-md-3 .popularPost .row .col-md-8 span {
+            color: #55595f;
+            font: 400 14px/24px "Karla"; }
+            #blog .container-fluid .container .col-md-3 .popularPost .row .col-md-8 span span {
+              color: #f7941d !important; }
 
 /*# sourceMappingURL=style.css.map */
