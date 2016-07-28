@@ -4,3 +4,4 @@
 *hColor ve pColor-u her yerde istifade elememisen
 *buttonlari mixinle yox style.scss-da style vererek yaz
 *News sectioninda hover eleyende icerideki divi konteksti saquli ortada olmur
+*Services2de serviceItemler arasinda border 1px yox 2pxdi

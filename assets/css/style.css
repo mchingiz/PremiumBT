@@ -747,7 +747,7 @@ body {
     margin-bottom: 5px; }
   #portfolio .container-fluid .container .col-md-3 .portfolioItem {
     background-color: #8d8d8d;
-    margin: 16px 0;
+    margin: 30px 0;
     padding: 10px;
     transition-duration: .2s; }
     #portfolio .container-fluid .container .col-md-3 .portfolioItem .innerPortItem {
@@ -894,6 +894,69 @@ body {
         font: 400 14px / 24px 'Karla';
         text-transform: uppercase;
         letter-spacing: 1px; }
+
+#servicesTwo .container-fluid .container {
+  padding: 100px 0; }
+  #servicesTwo .container-fluid .container h1 {
+    color: #23282f;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    color: #23282f; }
+  #servicesTwo .container-fluid .container h3 {
+    color: #23282f;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Karla';
+    text-transform: uppercase;
+    margin-top: 12px;
+    color: #23282f;
+    margin-bottom: 50px; }
+  #servicesTwo .container-fluid .container .col-md-4 {
+    padding-left: 0px; }
+    #servicesTwo .container-fluid .container .col-md-4 .serviceItem {
+      border: 1px solid #e6edee;
+      height: 100%; }
+      #servicesTwo .container-fluid .container .col-md-4 .serviceItem .col-md-3 {
+        padding: 0px; }
+        #servicesTwo .container-fluid .container .col-md-4 .serviceItem .col-md-3 i {
+          padding: 27px;
+          transition-duration: .2s; }
+      #servicesTwo .container-fluid .container .col-md-4 .serviceItem .col-md-9 {
+        padding: 0px; }
+        #servicesTwo .container-fluid .container .col-md-4 .serviceItem .col-md-9 h4 {
+          font: bold 16px / 24px 'Raleway';
+          border-left: 3px solid #29c2e1;
+          margin-top: calc(20% - 24px);
+          padding: 0 16px;
+          transition-duration: .2s; }
+      #servicesTwo .container-fluid .container .col-md-4 .serviceItem:hover {
+        border-color: #f7941d; }
+        #servicesTwo .container-fluid .container .col-md-4 .serviceItem:hover i {
+          color: #f7941d; }
+        #servicesTwo .container-fluid .container .col-md-4 .serviceItem:hover h4 {
+          border-color: #f7941d; }
+  #servicesTwo .container-fluid .container .col-md-8 {
+    padding: 0 0 0 25px;
+    text-align: center; }
+    #servicesTwo .container-fluid .container .col-md-8 i {
+      color: #f7941d;
+      margin-bottom: 35px; }
+    #servicesTwo .container-fluid .container .col-md-8 h2 {
+      font: 400 36px / 24px 'Raleway';
+      letter-spacing: 1px;
+      margin-bottom: 60px; }
+    #servicesTwo .container-fluid .container .col-md-8 p {
+      text-align: left;
+      font: 400 14px / 24px 'Karla';
+      margin-bottom: 60px; }
+    #servicesTwo .container-fluid .container .col-md-8 h4 {
+      font: 500 20px / 30px 'Raleway';
+      border-left: 3px solid #29c2e1;
+      text-align: left;
+      padding: 5px 28px;
+      margin-left: 62px; }
 
 #news .container-fluid .container {
   padding: 100px 0; }
