@@ -390,7 +390,7 @@ body {
         font-size: 14.5px;
         letter-spacing: 1px;
         transition-duration: 0.2s;
-        position: relative;
+        position: absolute;
         right: 65px;
         bottom: 37px; }
         #pricing .container-fluid .container .col-md-12:last-child .col-md-3 .plan button:hover {
@@ -944,6 +944,7 @@ body {
     text-align: center; }
     #servicesTwo .container-fluid .container .col-md-8 i {
       color: #f7941d;
+      font-size: 7em;
       margin-bottom: 35px; }
     #servicesTwo .container-fluid .container .col-md-8 h2 {
       font: 400 36px / 24px 'Raleway';
@@ -1387,5 +1388,292 @@ body {
       transition-duration: 0.2s; }
       #blogPost .container-fluid .postAComment .col-md-9 button:hover {
         background-color: #178ea6; }
+
+#slider2 .container-fluid {
+  position: relative;
+  height: 750px;
+  background-image: url(../../images/slider.png);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-family: 'Raleway';
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 30px; }
+  #slider2 .container-fluid h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 353px; }
+  #slider2 .container-fluid p {
+    font-size: 14px;
+    margin-top: 20px; }
+  #slider2 .container-fluid ul {
+    position: absolute;
+    top: 691px;
+    left: 900px; }
+    #slider2 .container-fluid ul li a {
+      color: rgba(255, 255, 255, 0.3);
+      width: 16px;
+      height: 16px; }
+      #slider2 .container-fluid ul li a .active {
+        color: #ffffff !important; }
+
+#features2 .container-fluid {
+  background-color: #e5eef0; }
+  #features2 .container-fluid .container {
+    padding: 38px 0 100px 0; }
+    #features2 .container-fluid .container .col-md-12 {
+      padding: 60px 0 0 0; }
+      #features2 .container-fluid .container .col-md-12:last-child {
+        border-bottom: 1px solid #e5eef0; }
+      #features2 .container-fluid .container .col-md-12 h1 {
+        font: 700 25px / 30px 'Raleway';
+        text-transform: uppercase; }
+      #features2 .container-fluid .container .col-md-12 > h3 {
+        color: #fff;
+        font: 400 13px / 15px 'Raleway';
+        display: inline-block;
+        background-color: #f7941d;
+        text-transform: uppercase;
+        padding: 0px 6px; }
+      #features2 .container-fluid .container .col-md-12 .col-md-1 {
+        text-align: center; }
+        #features2 .container-fluid .container .col-md-12 .col-md-1:first-child {
+          padding-left: 0;
+          margin-left: -2px; }
+        #features2 .container-fluid .container .col-md-12 .col-md-1 i {
+          background-color: #e5eef0;
+          border: 1px solid #000;
+          width: 68px;
+          line-height: 68px;
+          color: #000;
+          font-size: 32px;
+          background-color: #e5eef0; }
+          #features2 .container-fluid .container .col-md-12 .col-md-1 i:hover {
+            background-color: #f7941d;
+            color: #fff; }
+      #features2 .container-fluid .container .col-md-12 .col-md-3 {
+        padding-left: 8px; }
+        #features2 .container-fluid .container .col-md-12 .col-md-3:last-child {
+          padding-right: 0px; }
+        #features2 .container-fluid .container .col-md-12 .col-md-3 h3 {
+          font-size: 20px;
+          font-family: 'Raleway'; }
+        #features2 .container-fluid .container .col-md-12 .col-md-3 p {
+          font-size: 14px;
+          font-family: 'Karla';
+          margin-top: 15px; }
+    #features2 .container-fluid .container button {
+      text-align: center;
+      background-color: #29c2e1;
+      color: #fff;
+      width: 141px;
+      height: 38px;
+      border-radius: 60px;
+      font-size: 14.5px;
+      letter-spacing: 1px;
+      transition-duration: 0.2s; }
+      #features2 .container-fluid .container button:hover {
+        background-color: #178ea6; }
+
+#pricing2 .container-fluid .container .col-md-12 {
+  padding-left: 0px; }
+  #pricing2 .container-fluid .container .col-md-12:first-child {
+    margin-top: 100px; }
+    #pricing2 .container-fluid .container .col-md-12:first-child h1 {
+      font: 700 25px / 30px 'Raleway';
+      text-transform: uppercase; }
+    #pricing2 .container-fluid .container .col-md-12:first-child h3 {
+      color: #fff;
+      font: 400 13px / 15px 'Raleway';
+      display: inline-block;
+      background-color: #f7941d;
+      text-transform: uppercase;
+      padding: 0px 6px; }
+  #pricing2 .container-fluid .container .col-md-12:last-child {
+    margin-top: 43px;
+    margin-bottom: 99px; }
+    #pricing2 .container-fluid .container .col-md-12:last-child .col-md-3:first-child {
+      padding-left: 0; }
+    #pricing2 .container-fluid .container .col-md-12:last-child .col-md-3:last-child {
+      padding-right: 0; }
+    #pricing2 .container-fluid .container .col-md-12:last-child .col-md-3 .plan {
+      position: relative;
+      border: 1px solid #e6edee;
+      height: 424px;
+      transition-duration: .2s; }
+      #pricing2 .container-fluid .container .col-md-12:last-child .col-md-3 .plan .planName {
+        border-bottom: 1px solid #e6edee;
+        padding: 36px 0 13px 0; }
+        #pricing2 .container-fluid .container .col-md-12:last-child .col-md-3 .plan .planName h1 {
+          font-size: 20px;
+          font-weight: bold;
+          font-family: 'Raleway';
+          text-transform: uppercase; }
+      #pricing2 .container-fluid .container .col-md-12:last-child .col-md-3 .plan .planPrice {
+        padding: 20px 0 60px 0; }
+        #pricing2 .container-fluid .container .col-md-12:last-child .col-md-3 .plan .planPrice p {
+          font-size: 18px;
+          font-family: 'Raleway'; }
+          #pricing2 .container-fluid .container .col-md-12:last-child .col-md-3 .plan .planPrice p span {
+            color: #f7941d; }
+      #pricing2 .container-fluid .container .col-md-12:last-child .col-md-3 .plan .planDetails {
+        line-height: 36px;
+        font-size: 15px;
+        font-family: 'Karla'; }
+      #pricing2 .container-fluid .container .col-md-12:last-child .col-md-3 .plan button {
+        border-radius: 3px !important;
+        background-color: #f7941d !important;
+        text-align: center;
+        background-color: #29c2e1;
+        color: #fff;
+        width: 141px;
+        height: 38px;
+        border-radius: 60px;
+        font-size: 14.5px;
+        letter-spacing: 1px;
+        transition-duration: 0.2s;
+        position: absolute;
+        right: 65px;
+        bottom: -19px; }
+        #pricing2 .container-fluid .container .col-md-12:last-child .col-md-3 .plan button:hover {
+          background-color: #178ea6; }
+        #pricing2 .container-fluid .container .col-md-12:last-child .col-md-3 .plan button:hover {
+          background-color: #29c2e1 !important; }
+      #pricing2 .container-fluid .container .col-md-12:last-child .col-md-3 .plan:hover {
+        -webkit-box-shadow: 0px 0px 138px -48px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 138px -48px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 0px 138px -48px rgba(0, 0, 0, 0.75); }
+    #pricing2 .container-fluid .container .col-md-12:last-child .col-md-3 .recommended img {
+      position: absolute;
+      top: 0px;
+      left: 0px; }
+
+#team2 .container-fluid {
+  background-color: #e5eef0; }
+  #team2 .container-fluid .container .col-md-12 {
+    padding-left: 0px; }
+    #team2 .container-fluid .container .col-md-12:first-child {
+      margin-top: 100px; }
+      #team2 .container-fluid .container .col-md-12:first-child h1 {
+        color: #23282f;
+        font-size: 30px;
+        font-weight: 700;
+        font-family: 'Raleway';
+        text-transform: uppercase;
+        color: #23282f; }
+      #team2 .container-fluid .container .col-md-12:first-child h3 {
+        color: #23282f;
+        font-size: 18px;
+        font-weight: 400;
+        font-family: 'Karla';
+        text-transform: uppercase;
+        margin-top: 12px;
+        color: #23282f; }
+    #team2 .container-fluid .container .col-md-12:last-child {
+      margin-top: 38px;
+      margin-bottom: 98px; }
+      #team2 .container-fluid .container .col-md-12:last-child .col-md-3:first-child {
+        padding-left: 0; }
+      #team2 .container-fluid .container .col-md-12:last-child .col-md-3:last-child {
+        padding-right: 0; }
+      #team2 .container-fluid .container .col-md-12:last-child .col-md-3 .member {
+        background-color: #fff; }
+        #team2 .container-fluid .container .col-md-12:last-child .col-md-3 .member .imgContainer {
+          width: 100%;
+          height: 276px;
+          overflow: hidden; }
+          #team2 .container-fluid .container .col-md-12:last-child .col-md-3 .member .imgContainer img {
+            width: 100%;
+            height: 276px; }
+        #team2 .container-fluid .container .col-md-12:last-child .col-md-3 .member .content {
+          padding: 30px 28px 32px 30px;
+          transition-duration: .2s; }
+          #team2 .container-fluid .container .col-md-12:last-child .col-md-3 .member .content h4 {
+            font-family: 'Karla';
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px; }
+          #team2 .container-fluid .container .col-md-12:last-child .col-md-3 .member .content p {
+            color: #f7941d;
+            transition-duration: .2s; }
+          #team2 .container-fluid .container .col-md-12:last-child .col-md-3 .member .content ul {
+            margin-top: 13px; }
+            #team2 .container-fluid .container .col-md-12:last-child .col-md-3 .member .content ul a {
+              color: #adbdc1;
+              transition-duration: .2s; }
+              #team2 .container-fluid .container .col-md-12:last-child .col-md-3 .member .content ul a:hover {
+                color: #51666b; }
+          #team2 .container-fluid .container .col-md-12:last-child .col-md-3 .member .content:hover {
+            background-color: #29c2e1; }
+          #team2 .container-fluid .container .col-md-12:last-child .col-md-3 .member .content:hover p {
+            color: #000; }
+          #team2 .container-fluid .container .col-md-12:last-child .col-md-3 .member .content:hover ul li a {
+            color: #fff; }
+
+#footer2 .footer {
+  background-color: #1f2629; }
+  #footer2 .footer .footerTop .container {
+    padding: 75px 0px 80px 15px;
+    border-bottom: 1px solid #384145; }
+    #footer2 .footer .footerTop .container .col-md-12 {
+      padding-left: 0px; }
+      #footer2 .footer .footerTop .container .col-md-12:first-child .col-md-1 {
+        padding-left: 0px; }
+      #footer2 .footer .footerTop .container .col-md-12:first-child h3 {
+        font-size: 18px;
+        font-family: 'Raleway';
+        line-height: 24px;
+        font-weight: 700;
+        color: #fff; }
+      #footer2 .footer .footerTop .container .col-md-12:last-child {
+        text-transform: uppercase;
+        color: #93a1a7;
+        line-height: 35px;
+        font-family: 'Karla';
+        font-size: 14px;
+        letter-spacing: 2px; }
+        #footer2 .footer .footerTop .container .col-md-12:last-child a {
+          color: #93a1a7;
+          transition-duration: 0.2s; }
+          #footer2 .footer .footerTop .container .col-md-12:last-child a:hover {
+            color: black;
+            text-decoration: none; }
+        #footer2 .footer .footerTop .container .col-md-12:last-child span {
+          color: #fff; }
+        #footer2 .footer .footerTop .container .col-md-12:last-child .newsletter {
+          padding-right: 0px; }
+          #footer2 .footer .footerTop .container .col-md-12:last-child .newsletter input {
+            display: inline-block;
+            width: 220px;
+            height: 40px;
+            border: 1px solid #29c2e1;
+            padding-left: 19px;
+            color: #93a1a7; }
+          #footer2 .footer .footerTop .container .col-md-12:last-child .newsletter button {
+            text-align: center;
+            background-color: #29c2e1;
+            color: #fff;
+            width: 141px;
+            height: 38px;
+            border-radius: 60px;
+            font-size: 14.5px;
+            letter-spacing: 1px;
+            transition-duration: 0.2s;
+            background-color: #f7941d;
+            border-radius: 0;
+            width: 42px;
+            height: 40px;
+            margin-top: -1px; }
+            #footer2 .footer .footerTop .container .col-md-12:last-child .newsletter button:hover {
+              background-color: #178ea6; }
+  #footer2 .footer .footerBottom {
+    color: #93a1a7;
+    padding: 22px 0px 68px 0;
+    text-transform: uppercase;
+    font-family: 'Karla';
+    font-size: 14px;
+    letter-spacing: 2px; }
 
 /*# sourceMappingURL=style.css.map */
