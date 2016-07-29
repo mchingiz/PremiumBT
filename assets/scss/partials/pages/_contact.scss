@@ -64,9 +64,11 @@
 			.col-md-6{
 				&:first-child{
 					padding-left:0px;
+					padding-right:8px;
 				}
 				&:last-child{
 					padding-right:0px;
+					padding-left:8px;
 				}
 			}
 			button{

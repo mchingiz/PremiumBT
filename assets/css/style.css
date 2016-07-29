@@ -641,9 +641,11 @@ body {
     #pageContact .form input::placeholder {
       color: #000 !important; }
   #pageContact .form .col-md-6:first-child {
-    padding-left: 0px; }
+    padding-left: 0px;
+    padding-right: 8px; }
   #pageContact .form .col-md-6:last-child {
-    padding-right: 0px; }
+    padding-right: 0px;
+    padding-left: 8px; }
   #pageContact .form button {
     margin-top: 16px;
     text-align: center;
@@ -1204,5 +1206,186 @@ body {
             font: 400 14px/24px "Karla"; }
             #blog .container-fluid .container .col-md-3 .popularPost .row .col-md-8 span span {
               color: #f7941d !important; }
+
+#blogPost .container-fluid .post {
+  padding: 25px 0 100px 15px; }
+  #blogPost .container-fluid .post .col-md-9 {
+    padding: 0 15px 74px 0;
+    border-bottom: 1px solid #e6edee; }
+    #blogPost .container-fluid .post .col-md-9 .blogPost {
+      padding: 75px 0;
+      border-bottom: 1px solid #e6edee; }
+      #blogPost .container-fluid .post .col-md-9 .blogPost .blogImage {
+        width: 100%;
+        height: 334px;
+        overflow: hidden;
+        position: relative; }
+        #blogPost .container-fluid .post .col-md-9 .blogPost .blogImage img {
+          width: 100%; }
+      #blogPost .container-fluid .post .col-md-9 .blogPost h2 {
+        font: 700 24px / 24px 'Raleway';
+        margin-top: 40px;
+        margin-bottom: 15px; }
+      #blogPost .container-fluid .post .col-md-9 .blogPost span {
+        font: 400 15px / 24px 'Karla';
+        text-transform: uppercase;
+        letter-spacing: 1px; }
+        #blogPost .container-fluid .post .col-md-9 .blogPost span span {
+          color: #f7941d; }
+      #blogPost .container-fluid .post .col-md-9 .blogPost p {
+        margin-top: 42px; }
+      #blogPost .container-fluid .post .col-md-9 .blogPost ul {
+        margin: 60px 100px; }
+        #blogPost .container-fluid .post .col-md-9 .blogPost ul li {
+          font: 400 13px / 36px 'Karla';
+          text-transform: uppercase; }
+          #blogPost .container-fluid .post .col-md-9 .blogPost ul li i {
+            color: #f7941d;
+            margin-right: 16px;
+            font-size: 20px; }
+    #blogPost .container-fluid .post .col-md-9 .author {
+      width: 100%;
+      float: left;
+      height: auto;
+      background-color: #e5eef0;
+      padding: 35px 0 35px 43px; }
+      #blogPost .container-fluid .post .col-md-9 .author .authorImg {
+        float: left;
+        background-color: #8d8d8d;
+        border-radius: 100%;
+        width: 122px;
+        height: 122px;
+        margin-right: 46px; }
+      #blogPost .container-fluid .post .col-md-9 .author .aboutAuthor {
+        margin-top: 15px; }
+        #blogPost .container-fluid .post .col-md-9 .author .aboutAuthor span {
+          text-transform: uppercase;
+          letter-spacing: 1px; }
+          #blogPost .container-fluid .post .col-md-9 .author .aboutAuthor span span {
+            color: #f7941d; }
+        #blogPost .container-fluid .post .col-md-9 .author .aboutAuthor p {
+          margin: 10px 27px 0 0; }
+  #blogPost .container-fluid .post .col-md-3 {
+    padding: 75px 0 0 30px; }
+    #blogPost .container-fluid .post .col-md-3 .search {
+      border: 1px solid #e6edee;
+      position: relative;
+      margin-bottom: 50px; }
+      #blogPost .container-fluid .post .col-md-3 .search input {
+        border: none;
+        width: 100%;
+        height: 42px;
+        padding-left: 17px; }
+      #blogPost .container-fluid .post .col-md-3 .search a i {
+        color: #8d8d8d;
+        position: absolute;
+        top: calc(50% - 8px);
+        right: 18px; }
+    #blogPost .container-fluid .post .col-md-3 h4 {
+      font: 400 20px / 24px 'Raleway';
+      letter-spacing: 1px;
+      margin-bottom: 24px; }
+    #blogPost .container-fluid .post .col-md-3 .categories ul {
+      text-transform: uppercase;
+      width: 100%; }
+      #blogPost .container-fluid .post .col-md-3 .categories ul li {
+        color: #55595f;
+        font: 400 13px / 36px Karla; }
+        #blogPost .container-fluid .post .col-md-3 .categories ul li i {
+          float: right;
+          vertical-align: middle;
+          margin-top: 5px; }
+        #blogPost .container-fluid .post .col-md-3 .categories ul li:hover {
+          color: #f7941d; }
+    #blogPost .container-fluid .post .col-md-3 .popularPost {
+      margin-top: 50px; }
+      #blogPost .container-fluid .post .col-md-3 .popularPost .row {
+        margin-top: 30px; }
+        #blogPost .container-fluid .post .col-md-3 .popularPost .row .col-md-4 {
+          padding: 0; }
+          #blogPost .container-fluid .post .col-md-3 .popularPost .row .col-md-4 .img {
+            width: 67px;
+            height: 67px;
+            background-color: #8d8d8d; }
+        #blogPost .container-fluid .post .col-md-3 .popularPost .row .col-md-8 {
+          padding: 5px 0 0 0; }
+          #blogPost .container-fluid .post .col-md-3 .popularPost .row .col-md-8 h5 {
+            font: 400 15px/24px "Karla";
+            text-transform: uppercase; }
+          #blogPost .container-fluid .post .col-md-3 .popularPost .row .col-md-8 span {
+            color: #55595f;
+            font: 400 14px/24px "Karla"; }
+            #blogPost .container-fluid .post .col-md-3 .popularPost .row .col-md-8 span span {
+              color: #f7941d !important; }
+#blogPost .container-fluid .comments {
+  padding: 75px 0 0 15px; }
+  #blogPost .container-fluid .comments .row h1 {
+    font: 700 24px / 24px 'Raleway';
+    text-transform: uppercase; }
+  #blogPost .container-fluid .comments .comment {
+    padding: 40px 0 47px 0; }
+    #blogPost .container-fluid .comments .comment .col-md-1 {
+      padding-left: 0px; }
+      #blogPost .container-fluid .comments .comment .col-md-1 .commentImg {
+        background-color: #8d8d8d;
+        border-radius: 100%;
+        width: 68px;
+        height: 68px; }
+    #blogPost .container-fluid .comments .comment .col-md-8 .commentContent pre, #blogPost .container-fluid .comments .comment .col-md-7 .commentContent pre {
+      color: #23282f;
+      font: 400 15px / 20px 'Karla';
+      text-transform: uppercase;
+      background-color: transparent;
+      display: inline-block; }
+    #blogPost .container-fluid .comments .comment .col-md-8 .commentContent span, #blogPost .container-fluid .comments .comment .col-md-7 .commentContent span {
+      float: right;
+      color: #f7941d;
+      text-transform: uppercase;
+      font: 400 15px / 24px 'Karla'; }
+    #blogPost .container-fluid .comments .comment .col-md-8 .commentContent p, #blogPost .container-fluid .comments .comment .col-md-7 .commentContent p {
+      margin-top: 23px;
+      font: 400 14px / 24px 'Karla'; }
+#blogPost .container-fluid .postAComment {
+  border-bottom: 1px solid #e6edee; }
+  #blogPost .container-fluid .postAComment .col-md-9 {
+    padding: 99px 0 99px 0; }
+    #blogPost .container-fluid .postAComment .col-md-9 h1 {
+      color: #23282f;
+      font-size: 30px;
+      font-weight: 700;
+      font-family: 'Raleway';
+      text-transform: uppercase;
+      color: #23282f;
+      text-align: center;
+      margin-bottom: 30px; }
+    #blogPost .container-fluid .postAComment .col-md-9 input {
+      background-color: #e3eef0;
+      border: none;
+      font: 400 13px / 20px 'Karla';
+      text-transform: uppercase;
+      padding: 19px 24px;
+      width: 100%;
+      margin-bottom: 15px; }
+      #blogPost .container-fluid .postAComment .col-md-9 input::placeholder {
+        color: #000 !important; }
+    #blogPost .container-fluid .postAComment .col-md-9 .col-md-6:first-child {
+      padding-left: 0px;
+      padding-right: 8px; }
+    #blogPost .container-fluid .postAComment .col-md-9 .col-md-6:last-child {
+      padding-right: 0px;
+      padding-left: 8px; }
+    #blogPost .container-fluid .postAComment .col-md-9 button {
+      margin-top: 16px;
+      text-align: center;
+      background-color: #29c2e1;
+      color: #fff;
+      width: 141px;
+      height: 38px;
+      border-radius: 60px;
+      font-size: 14.5px;
+      letter-spacing: 1px;
+      transition-duration: 0.2s; }
+      #blogPost .container-fluid .postAComment .col-md-9 button:hover {
+        background-color: #178ea6; }
 
 /*# sourceMappingURL=style.css.map */

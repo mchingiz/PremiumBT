@@ -1,0 +1,232 @@
+#blogPost{
+	.container-fluid{
+		.post{
+			padding:25px 0 100px 15px;
+			.col-md-9{
+				padding:0 15px 74px 0;
+				border-bottom:1px solid $borderColor;
+				.blogPost{
+					padding:75px 0;
+					border-bottom:1px solid $borderColor;
+					.blogImage{
+						width:100%;
+						height:334px;
+						overflow:hidden;
+						position:relative;
+						img{
+							width:100%;
+						}
+					}
+					h2{
+						font: 700 24px / 24px 'Raleway';
+						margin-top:40px;
+						margin-bottom:15px;
+					}
+					span{
+						font: 400 15px / 24px 'Karla';
+						text-transform: uppercase;
+						letter-spacing: 1px;
+						span{
+							color:$secondaryColor;
+						}
+					}
+					p{
+						margin-top:42px;
+					}
+					ul{
+						margin:60px 100px;
+						li{
+							font: 400 13px / 36px 'Karla';
+							text-transform: uppercase;
+							i{
+								color:$secondaryColor;
+								margin-right:16px;
+								font-size:20px;
+							}
+						}
+					}
+				}
+				.author{
+					width:100%;
+					float:left;
+					height: auto;
+					background-color: $thirdColor;
+					padding:35px 0 35px 43px;
+					.authorImg{
+						float:left;
+						background-color:#8d8d8d;
+						border-radius: 100%;
+						width:122px;
+						height: 122px;
+						margin-right:46px;
+					}
+					.aboutAuthor{
+						margin-top:15px;
+						span{
+							text-transform: uppercase;
+							letter-spacing: 1px;
+							span{
+								color:$secondaryColor;
+							}
+						}
+						p{
+							margin:10px 27px 0 0;
+						}
+					}
+				}
+			}
+			.col-md-3{
+				padding:75px 0 0 30px;
+				.search{
+					border:1px solid $borderColor;
+					position:relative;
+					margin-bottom:50px;
+					input{
+						border:none;
+						width:100%;
+						height:42px;
+						padding-left: 17px;
+					}
+					a{
+						i{
+							color:#8d8d8d;
+							position:absolute;
+							top:calc(50% - 8px);
+							right:18px;
+						}
+					}
+				}
+				h4{
+					font: 400 20px / 24px 'Raleway';
+					letter-spacing: 1px;
+					margin-bottom:24px;
+				}
+				.categories{
+					ul{
+						text-transform: uppercase;
+						width:100%;
+						li{
+							color: $pColor;
+							font: 400 13px / 36px Karla;
+							i{
+								float:right;
+								vertical-align:middle;
+								margin-top:5px;
+							}
+							&:hover{
+								color:$secondaryColor;
+							}
+						}
+					}
+				}
+				.popularPost{
+					margin-top:50px;
+					.row{
+						margin-top:30px;
+						.col-md-4{
+							padding:0;
+							.img{
+								width:67px;
+								height: 67px;
+								background-color:#8d8d8d;
+							}
+						}
+						.col-md-8{
+							padding:5px 0 0 0;
+							h5{
+								font: 400 15px / 24px'Karla';
+								text-transform: uppercase;
+							}
+							span{
+								color: $pColor;
+									font: 400 14px / 24px'Karla';
+								span{
+										color:$secondaryColor!important;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		.comments{
+			padding:75px 0 0 15px;
+			.row{
+				h1{
+					font: 700 24px / 24px 'Raleway';
+					text-transform: uppercase;
+				}
+			}
+			.comment{
+				padding:40px 0 47px 0;
+				.col-md-1{
+					padding-left:0px;
+					.commentImg{
+						background-color: #8d8d8d;
+						border-radius: 100%;
+						width:68px;
+						height: 68px;
+					}
+				}
+				.col-md-8, .col-md-7{
+					.commentContent{
+						pre{
+							color: #23282f;
+							font: 400 15px / 20px 'Karla';
+							text-transform: uppercase;
+							background-color: transparent;
+							display: inline-block;
+						}
+						span{
+							float:right;
+							color:$secondaryColor;
+							text-transform: uppercase;
+							font: 400 15px / 24px 'Karla';
+						}
+						p{
+							margin-top:23px;
+							font: 400 14px / 24px 'Karla';
+						}
+					}
+				}
+			}
+		}
+		.postAComment{
+			border-bottom:1px solid $borderColor;
+			.col-md-9{
+				padding: 99px 0 99px 0;
+				h1{
+					@include sectionh1;
+					text-align: center;
+					margin-bottom:30px;
+				}
+				input{
+					background-color: #e3eef0;
+					border:none;
+					font: 400 13px / 20px 'Karla';
+					text-transform: uppercase;
+					padding: 19px 24px;
+					width:100%;
+					margin-bottom:15px;
+					&::placeholder{
+						color:#000 !important;
+					}
+				}
+				.col-md-6{
+					&:first-child{
+						padding-left:0px;
+						padding-right:8px;
+					}
+					&:last-child{
+						padding-right:0px;
+						padding-left:8px;
+					}
+				}
+				button{
+					margin-top:16px;
+					@include button;
+				}
+			}
+		}
+	}
+}
