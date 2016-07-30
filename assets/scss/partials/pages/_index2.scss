@@ -1,4 +1,25 @@
-
+.header2{
+	background-color: #1f2629 !important;
+	.container{
+		background-color: transparent !important;
+		.col-md-12{
+			.col-md-5{
+				ul{
+					li{
+						font: 400 16px / 24px 'Karla';
+						border:none !important;
+						&:first-child{
+							color:#bac7cd;
+						}
+						&:last-child{
+							color:#7b8a90;
+						}
+					}
+				}
+			}
+		}
+	}
+}
 
 #slider2 {
 	.container-fluid {
@@ -12,26 +33,115 @@
 		text-transform: uppercase;
 		text-align: center;
 		line-height: 30px;
-		h1 {
-			font-size: 48px;
-			font-weight: bold;
-			margin-top: 353px;
+		.container{
+			h1 {
+				font: 700 60px / 60px 'Raleway';
+				font-weight: bold;
+			}
+			p {
+				font: 400 24px / 55px 'Raleway';
+				margin-top: 293px;
+			}
+			button{
+				@include button;
+				font-family: 'Karla';
+				border-radius: 3px;
+				text-transform: uppercase;
+				margin-top:25px;
+			}
+			.row{
+				background-color: rgba(13, 14, 18, 0.6);
+				padding:23px;
+				margin-top:150px;
+				.col-md-3{
+					text-transform: uppercase;
+					padding:0;
+					h3{
+						color: #ffffff;
+						font: 500 12px / 14px 'Raleway';
+						background-color: $secondaryColor;
+						display: inline-block;
+						padding:0 3px 0 3px;
+					}
+					h1{
+						font: 700 22px / 24px 'Raleway';
+					}
+					input{
+						border:none;
+						height:42px;
+						padding:0 20px;
+						margin-top:8px;
+						width:95%;
+						text-transform: uppercase;
+					}
+					button{
+						@include button;
+						background-color: $secondaryColor;
+						border-radius: 3px;
+						float:left;
+						width:auto;
+						margin-top: 10px;
+						margin-left:2px;
+						padding-left:41px;
+						padding-right:41px;
+						&:hover{
+							background-color: darken($secondaryColor, 20%);
+						}
+					}
+				}
+			}
 		}
-		p {
-			font-size: 14px;
-			margin-top: 20px;
-		}
-		ul {
-			position:absolute;
-			top:691px;
-			left:900px;
-			li {
-				a {
-					color:rgba(255, 255, 255, 0.3);
-					width: 16px;
-					height: 16px;
-					.active {
-						color: #ffffff !important;
+	}
+}
+
+#whatWeAre{
+	.container-fluid{
+		.container{
+			padding:100px 0;
+			.col-md-12{
+				padding:0 0 80px 0;
+				h1 {
+					font: 700 25px / 30px 'Raleway';
+					text-transform: uppercase;
+				}
+				h3 {
+					color:#fff;
+					font:400 13px / 15px 'Raleway';
+					display: inline-block;
+					background-color: $secondaryColor;
+					text-transform: uppercase;
+					padding:0px 6px;
+				}
+			}
+			.row{
+				.col-md-6{
+					div{
+						width: 100%;
+						height: 236px;
+						background-color: $thirdColor;
+						position: relative;
+						img{
+							width:475px;
+							height:308px;
+							position: absolute;
+							top:-36px;
+							left:35px;
+						}
+					}
+					p{
+						font: 400 14px / 24px 'Karla';
+					}
+					button{
+						@include button;
+						border-radius:3px;
+						background-color: $secondaryColor;
+						margin-top:50px;
+					}
+					&:first-child{
+						padding-right:26px;
+					}
+					&:last-child{
+						padding-left:26px;
 					}
 				}
 			}
@@ -43,7 +153,7 @@
 	.container-fluid {
 		background-color: $thirdColor;
 		.container {
-			padding:38px 0 100px 0;
+			padding:38px 15px 100px 15px;
 			.col-md-12 {
 				padding:60px 0 0 0;
 				&:last-child{
@@ -77,9 +187,11 @@
 						color: #000;
 						font-size: 32px;
 						background-color: $thirdColor;
+						transition-duration: .2s;
 						&:hover {
-							background-color: $secondaryColor;
+							background-color: $mainColor;
 							color:#fff;
+							border-color:$mainColor;
 						}
 					}
 					
@@ -102,6 +214,83 @@
 			}
 			button{
 				@include button;
+			}
+		}
+	}
+}
+
+#clients2{
+	.container-fluid{
+		background-color: $secondaryColor;
+		.container{
+			padding:100px 15px;
+			.clientsHeader{
+				paddig:0;
+				> h1 {
+					font: 700 25px / 30px 'Raleway';
+					text-transform: uppercase;
+					color:#000;
+				}
+				> h3 {
+					color:#fff;
+					font:400 13px / 15px 'Raleway';
+					display: inline-block;
+					background-color: #000;
+					text-transform: uppercase;
+					padding:0px 6px;
+				}
+				i{
+					border:1px solid #fff;
+					border-radius: 100%;
+					color:#fff;
+					padding:15px;
+					margin-top:15px;
+				}
+			}
+			.quote{
+				padding:11px 0 0 0;
+				text-align: center;
+				color:#000;
+				.fa-quote-left{
+					float: left;
+				}
+				p{
+					clear:both;
+					margin:0 30px 0 30px;
+				}
+				.fa-quote-right{
+					float:right;
+				}
+				h2{
+					text-transform: uppercase;
+					font:700 14px / 20px 'Karla';
+					color: $hColor;
+					margin-top:40px;
+					span{
+						font-weight: 400;
+						display: block;
+					}
+				}
+			}
+			.hexagons{
+				div{
+					width:220px;
+					display:flex;
+					flex-wrap: wrap;
+					justify-content: center;
+					margin:20px auto;
+					img{
+						width:55px;
+						height: 63px;
+						margin:0 4px;
+						&:nth-child(4){
+							margin-top:-10px;
+						}
+						&:nth-child(5){
+							margin-top:-10px;
+						}
+					}
+				}
 			}
 		}
 	}
@@ -274,6 +463,87 @@
 }//container-fluid
 }//team
 
+#homepageBlog{
+	.container-fluid{
+		.container{
+			padding:100px 15px;
+			.col-md-12{
+				padding:0px;
+				h1 {
+					font: 700 25px / 30px 'Raleway';
+					text-transform: uppercase;
+				}
+				h3 {
+					color:#fff;
+					font:400 13px / 15px 'Raleway';
+					display: inline-block;
+					background-color: $secondaryColor;
+					text-transform: uppercase;
+					padding:0px 6px;
+				}
+			}
+			.blogImage{
+				margin-top: 35px;
+				width:100%;
+				padding:0;
+				height:395px;
+				background-color:#8d8d8d;
+				position: relative;
+				div{
+					position: absolute;
+					top:0;
+					left:0;
+					width: 83px;
+					height: 83px;
+					background-color: $mainColor;
+					color:#fff;
+					text-align: center;
+					padding-top:10px;
+					h2{
+						font: 700 36px 'Raleway';
+					}
+					h4{
+						font: 500 14px 'Raleway';
+						text-transform: uppercase;
+					}
+				}
+				
+			}
+			.blogContent{
+				.row{
+					margin-top:40px;
+					h5{
+						font:500 20px / 24px 'Raleway'
+					}
+					ul{
+						li{
+							margin-left:37px;
+							i{
+								color:$secondaryColor;
+								margin-right:5px;
+							}
+							span{
+								text-transform: uppercase;
+								color: #58686c;
+								font: 400 14px / 24px 'Karla';
+							}
+						}
+					}
+				}
+				p{
+					margin-top:45px;
+					font: 400 14px / 24px 'Karla';
+				}
+				button{
+					margin-top:50px;
+					@include button;
+					border-radius:3px;
+				}
+			}
+		}
+	}
+}
+
 #footer2 {
 	.footer{
 		background-color:#1f2629;
@@ -316,10 +586,11 @@
 						.newsletter{
 							padding-right:0px;
 							input{
+								background-color: transparent;
 								display: inline-block;
 								width:220px;
 								height: 40px;
-								border:1px solid $mainColor;
+								border:1px solid #384145;
 								padding-left:19px;
 								color:#93a1a7;
 							}

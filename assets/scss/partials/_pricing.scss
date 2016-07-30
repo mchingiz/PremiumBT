@@ -26,6 +26,7 @@
 							position: relative;
 							border: 1px solid $borderColor;
 							height: 424px;
+							transition-duration: .2s;
 							.planName {
 								border-bottom: 1px solid $borderColor;
 								padding: 36px 0 13px 0;
@@ -57,12 +58,13 @@
 								right:65px;
 								bottom: 37px;
 							}
-							
+							&:hover{
+								-webkit-box-shadow: 0px 0px 138px -50px rgba(0,0,0,0.75);
+								-moz-box-shadow: 0px 0px 138px -50px rgba(0,0,0,0.75);
+								box-shadow: 0px 0px 138px -50px rgba(0,0,0,0.75);
+							}
 						} //plan
 						.recommended {
-							-webkit-box-shadow: 0px 0px 138px -55px rgba(0,0,0,0.75);
-							-moz-box-shadow: 0px 0px 138px -55px rgba(0,0,0,0.75);
-							box-shadow: 0px 0px 138px -55px rgba(0,0,0,0.75);
 								img {
 									position: absolute;
 									top: 0px;

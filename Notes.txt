@@ -7,5 +7,5 @@
 *Services2de serviceItemler arasinda border 1px yox 2pxdi
 *Blog sehifesinde tags hissesi yoxdu
 *Pagination divle yazilib
-*Price planlarinda hover-a shadow verilmelidi,amma ancaq 2ciye verilib
 *index2-in headerinin top sectioni ferqlidi,duzetlmemisen
+*homepage2de her sectionin headingleri ucun ayri css yazilib
