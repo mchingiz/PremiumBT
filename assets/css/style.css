@@ -1981,6 +1981,16 @@ body {
     max-height: none; }
 
   #newsDetails .container .newsContent::before {
-    left: 340px; } }
+    left: 340px; }
+
+  #portfolio .container-fluid .container {
+    padding-left: 15px; }
+    #portfolio .container-fluid .container .col-md-3 {
+      padding: 0; }
+
+  #portfolioTwo .container .row {
+    padding-left: 15px; }
+    #portfolioTwo .container .row .col-md-6 {
+      padding-left: 0px; } }
 
 /*# sourceMappingURL=style.css.map */
