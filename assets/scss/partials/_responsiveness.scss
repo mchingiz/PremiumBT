@@ -1,0 +1,133 @@
+@media (min-width:650px) and (max-width:768px){
+	#header{
+		.menu{
+			.container{
+				ul{
+					li{
+						a{
+							padding:10px 5px;
+						}
+					}
+				}
+			}
+		}
+	}
+	#slider{
+		.container-fluid{
+			.container{
+				h1{
+					line-height: 60px;
+				}
+				ul{
+					position: absolute;
+					left:350px;
+				}
+			}
+		}
+	}
+	#startup{
+		.container-fluid{
+			.container{
+				.col-md-5{
+					margin-top:30px;
+					padding-left:0px;
+				}
+			}
+		}
+	}
+	#clients{
+		.container-fluid{
+			.container{
+				.clientPhotos{
+					margin-top:300px;
+				}
+			}
+		}
+	}
+	#features{
+		.container-fluid{
+			.container{
+				.col-md-12{
+					.col-xs-3{
+						padding-left:0;
+						&:first-child{
+							padding-left:5px;
+						}
+					}
+					.col-xs-9{
+						padding-bottom:20px;
+					}
+					button{
+						margin-top:420px;
+					}
+				}
+			}
+		}
+	}
+	#pricing{
+		.container-fluid{
+			.container{
+				.col-md-12{
+					.col-md-3{
+						padding:10px 15px 10px 0 !important;
+						button{
+							left:265px !important;
+						}
+					}
+				}
+			}
+		}
+	}
+	#team{
+		.container-fluid{
+			.container{
+				.col-md-12{
+					.col-md-3{
+						padding:10px 15px 10px 0 !important;
+						button{
+							left:265px !important;
+						}
+					}
+				}
+			}
+		}
+	}
+	#footer{
+		.footer{
+			background-image: none;
+			.footerTop{
+			background-image: none;
+				.container{
+					.col-md-12{
+						padding-left:15px !important;
+						.col-md-1{
+							padding-left:15px !important;
+						}
+					}
+				}
+			}
+		}
+	}
+	#about{
+		.container-fluid{
+			.container{
+				.row{
+					.col-md-6{
+						padding-left:0px;
+						&:last-child{
+							padding-top:20px;
+						}
+					}
+				}
+			}
+		}
+	}
+	#serviceStats{
+		.container-fluid{
+			.container{
+				.row{
+				}
+			}
+		}
+	}
+}

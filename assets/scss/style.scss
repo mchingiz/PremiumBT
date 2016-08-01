@@ -52,9 +52,7 @@ body{
 	margin:0;
 	padding:0;
 }
-.container {
-	width:$mainWidth;
-}
+
 
 @import "partials/mixins";
 @import "partials/header";
@@ -78,3 +76,4 @@ body{
 @import "partials/pages/blog";
 @import "partials/pages/blogpost";
 @import "partials/pages/index2";
+@import "partials/responsiveness";

@@ -63,12 +63,14 @@
 				a{
 					text-decoration: none;
 					color:#93a1a7;
-					padding:20px;
-						.active{
-							color:#000 !important;
+					padding:10px 20px;
+					.active{
+						color:#000 !important;
 								}
-						&:hover{
-							font-weight: 900;
+					&:hover{
+						background-color: $mainColor;
+						border-radius:30px;
+						color:#fff;
 								}
 					i{
 						font-size: 12.5px;
