@@ -238,4 +238,13 @@
 			}
 		}
 	}
+	#newsDetails{
+		.container{
+			.newsContent{
+				&::before{
+					left:340px;
+				}
+			}
+		}
+	}
 }
