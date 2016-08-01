@@ -9,3 +9,4 @@
 *Pagination divle yazilib
 *index2-in headerinin top sectioni ferqlidi,duzetlmemisen
 *homepage2de her sectionin headingleri ucun ayri css yazilib
+*index2 sliderdaki form hissesi responsive deyil

@@ -44,7 +44,7 @@
 			}
 		}
 	}
-	#features{
+	#features, #features2{
 		.container-fluid{
 			.container{
 				.col-md-12{
@@ -61,7 +61,7 @@
 			}
 		}
 	}
-	#pricing{
+	#pricing, #pricing2{
 		.container-fluid{
 			.container{
 				.col-md-12{
@@ -75,7 +75,7 @@
 			}
 		}
 	}
-	#team{
+	#team, #team2{
 		.container-fluid{
 			.container{
 				.col-md-12{
@@ -89,7 +89,7 @@
 			}
 		}
 	}
-	#footer{
+	#footer, #footer2{
 		.footer{
 			background-image: none;
 			.footerTop{
@@ -194,6 +194,28 @@
 				.row{
 					.col-md-6{
 						padding-left:0px;
+					}
+				}
+			}
+		}
+	}
+	#slider2{
+		.container-fluid{
+			height:auto;
+			padding-bottom:50px;
+			.container{
+				.row{
+					
+				}
+			}
+		}
+	}
+	#whatWeAre{
+		.container-fluid{
+			.row{
+				.col-md-6{
+					&:last-child{
+						margin-top: 100px;
 					}
 				}
 			}
