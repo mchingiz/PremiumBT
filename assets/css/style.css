@@ -1991,6 +1991,17 @@ body {
   #portfolioTwo .container .row {
     padding-left: 15px; }
     #portfolioTwo .container .row .col-md-6 {
-      padding-left: 0px; } }
+      padding-left: 0px; }
+
+  #services .container-fluid .container .serviceItem .col-md-2 {
+    text-align: center;
+    padding-bottom: 20px; }
+  #services .container-fluid .container .serviceItem .col-md-10 {
+    padding-left: 0px; }
+
+  #servicesTwo .container-fluid .container .col-md-4 .serviceItem .col-md-9 h4 {
+    margin-top: 30px; }
+  #servicesTwo .container-fluid .container .col-md-8 i {
+    margin-top: 20px; } }
 
 /*# sourceMappingURL=style.css.map */
