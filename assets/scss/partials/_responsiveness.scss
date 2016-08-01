@@ -176,4 +176,27 @@
 			}
 		}
 	}
+	#pageContact{
+		.container-fluid{
+			.map{
+				padding-left:15px;
+				.details{
+					.col-md-4{
+						i{
+							margin-bottom:5px;
+						}
+						padding-top:30px;
+					}
+				}
+			}
+			.form{
+				padding-left:15px;
+				.row{
+					.col-md-6{
+						padding-left:0px;
+					}
+				}
+			}
+		}
+	}
 }

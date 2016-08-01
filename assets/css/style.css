@@ -1969,6 +1969,17 @@ body {
   #blogPost .container-fluid .comments .comment:nth-child(4) {
     padding-left: 30px; }
   #blogPost .container-fluid .postAComment .col-md-9 .row .col-md-6 {
-    padding-left: 0px; } }
+    padding-left: 0px; }
+
+  #pageContact .container-fluid .map {
+    padding-left: 15px; }
+    #pageContact .container-fluid .map .details .col-md-4 {
+      padding-top: 30px; }
+      #pageContact .container-fluid .map .details .col-md-4 i {
+        margin-bottom: 5px; }
+  #pageContact .container-fluid .form {
+    padding-left: 15px; }
+    #pageContact .container-fluid .form .row .col-md-6 {
+      padding-left: 0px; } }
 
 /*# sourceMappingURL=style.css.map */
