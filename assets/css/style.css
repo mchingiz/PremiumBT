@@ -1937,8 +1937,6 @@ body {
       padding-left: 5px; }
   #features .container-fluid .container .col-md-12 .col-xs-9 {
     padding-bottom: 20px; }
-  #features .container-fluid .container .col-md-12 button {
-    margin-top: 420px; }
 
   #pricing .container-fluid .container .col-md-12 .col-md-3 {
     padding: 10px 15px 10px 0 !important; }
@@ -1959,9 +1957,14 @@ body {
         #footer .footer .footerTop .container .col-md-12 .col-md-1 {
           padding-left: 15px !important; }
 
-  #about .container-fluid .container .row .col-md-6 {
-    padding-left: 0px; }
-    #about .container-fluid .container .row .col-md-6:last-child {
-      padding-top: 20px; } }
+  #about .container-fluid .container {
+    padding-left: 15px; }
+    #about .container-fluid .container .row .col-md-6 {
+      padding-left: 0px; }
+      #about .container-fluid .container .row .col-md-6:last-child {
+        padding-top: 20px; }
+
+  #serviceStats .container-fluid .container .row .col-xs-2, #serviceStats .container-fluid .container .row .col-xs-10 {
+    margin-top: 20px; } }
 
 /*# sourceMappingURL=style.css.map */
