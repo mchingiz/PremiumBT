@@ -56,9 +56,6 @@
 						margin-top:45px;
 						@include button;
 					}
-					audio{
-						width:820px;
-					}
 					&:nth-child(5){
 						border:none !important;
 					}
@@ -152,19 +149,6 @@
 						}
 					}
 				}
-				/*.tags{
-					margin-top:55px;
-					.row{
-						.col-md-4{
-							background-color: $mainColor;
-							margin:5px;
-						}
-						.col-md-6{
-							width:100%;
-							background-color: $mainColor;
-						}
-					}
-				}*/
 			}
 		}
 	}

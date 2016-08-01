@@ -95,8 +95,9 @@
 			.footerTop{
 			background-image: none;
 				.container{
+					padding-left:0px;
 					.col-md-12{
-						padding-left:15px !important;
+						padding-left:0px !important;
 						.col-md-1{
 							padding-left:15px !important;
 						}
@@ -126,6 +127,50 @@
 				.row{
 					.col-xs-2, .col-xs-10{
 						margin-top:20px;
+					}
+				}
+			}
+		}
+	}
+	#blog{
+		.container-fluid{
+			.container{
+				padding-left:15px;
+				.col-md-3{
+					padding-left:0px;
+				}
+			}
+		}
+	}
+	#blogPost{
+		.container-fluid{
+			.container{
+				.col-md-3{
+					padding-left:0px;
+				}
+			}
+			.comments{
+				.comment{
+					.col-md-8{
+						padding-left: 0px;
+						margin-top:5px;
+						.commentContent{
+							p{
+								margin-top:5px;
+							}
+						}
+					}
+					&:nth-child(4){
+						padding-left:30px;
+					}
+				}
+			}
+			.postAComment{
+				.col-md-9{
+					.row{
+						.col-md-6{
+							padding-left:0px;
+						}
 					}
 				}
 			}
